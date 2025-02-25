@@ -19,20 +19,20 @@
 
 ### 🌐AI大模型产品Product
 
-| 产品名称      | 网址                                    |
-|:--------- |:------------------------------------- |
-| DeepSeek  | https://chat.deepseek.com/            | 
-| ChatGPT   | https://chat.openai.com/              | 
-| Bard      | https://bard.google.com/              | 
-| Claude    | https://www.anthropic.com/            | 
-| 文心一言      | https://yiyan.baidu.com/              | 
-| 通义千问      | https://tongyi.aliyun.com/            | 
-| 讯飞星火      | https://xinghuo.xfyun.cn/             | 
-| 智谱清言      | https://chatglm.cn/                   | 
-| AI文本人性化   | https://humanize.im/zh-CN             | 
-| 腾讯元器      | https://yuanqi.tencent.com/agent-shop |
-| Napkin    | https://chat01.ai/?ref=nyi8wifx       |
-| Chat01.ai | https://www.napkin.ai/                | 
+| 产品名称      | 网址                                    | 介绍  |
+|:--------- |:------------------------------------- | --- |
+| DeepSeek  | https://chat.deepseek.com/            |     |
+| ChatGPT   | https://chat.openai.com/              |     |
+| Bard      | https://bard.google.com/              |     |
+| Claude    | https://www.anthropic.com/            |     |
+| 文心一言      | https://yiyan.baidu.com/              |     |
+| 通义千问      | https://tongyi.aliyun.com/            |     |
+| 讯飞星火      | https://xinghuo.xfyun.cn/             |     |
+| 智谱清言      | https://chatglm.cn/                   |     |
+| AI文本人性化   | https://humanize.im/zh-CN             |     |
+| 腾讯元器      | https://yuanqi.tencent.com/agent-shop |     |
+| Napkin    | https://www.napkin.ai/                |     |
+| Chat01.ai | https://chat01.ai/?ref=nyi8wifx       |     |
 
 ### 🔦教程Tutorial
 
@@ -75,7 +75,7 @@
 
 | 教程  | Link | 说明  | 推荐星级 | 备注  |
 | --- | ---- | --- | ---- | --- |
-|     |      |     |   |     |
+|     |      |     |      |     |
 
 ## 🤔如何使用How to use
 
@@ -85,4 +85,4 @@ E-mail：yanmingxin.boy@gmail.com
 
 WeChat: 扯编程的淡
 
-![图片描述](assets/wx.png)
+<img src="assets/wx.png" title="" alt="图片描述" width="246">
