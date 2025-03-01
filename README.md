@@ -16,23 +16,24 @@
 | OpenAssistant | [OpenAssistant](https://github.com/LAION-AI/Open-Assistant) | LAION开发的开源助手模型，注重对话能力。          | ⭐⭐⭐⭐ |
 | Vicuna        | [Vicuna](https://github.com/lm-sys/FastChat)                | 基于LLaMA的对话优化模型，适用于交互式应用。        | ⭐⭐⭐⭐ |
 | GPT-NeoX      | [GPT-NeoX](https://github.com/EleutherAI/gpt-neox)          | EleutherAI开发的开源大语言模型，支持大规模训练。   | ⭐⭐⭐⭐ |
+| DeepSeek-V3   | [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)   | 深度求索开源的对话模型，支持长上下文，中文任务优化明显     | ⭐⭐⭐⭐ |
+| DeepSeek-MoE  | [DeepSeek-MoE](https://github.com/deepseek-ai/DeepSeek-MoE) | 基于混合专家架构的高效稀疏模型，推理成本低           | ⭐⭐⭐⭐ |
+| Qwen          | [Qwen](https://github.com/QwenLM/Qwen)                      | 阿里开源的通义千问大模型                    | ⭐⭐⭐⭐ |
 
-### 🌐AI大模型产品Product
+### 🌐AI大模型衍生产品Product
 
-| 产品名称      | 网址                                    | 介绍  |
-|:--------- |:------------------------------------- | --- |
-| DeepSeek  | https://chat.deepseek.com/            |     |
-| ChatGPT   | https://chat.openai.com/              |     |
-| Bard      | https://bard.google.com/              |     |
-| Claude    | https://www.anthropic.com/            |     |
-| 文心一言      | https://yiyan.baidu.com/              |     |
-| 通义千问      | https://tongyi.aliyun.com/            |     |
-| 讯飞星火      | https://xinghuo.xfyun.cn/             |     |
-| 智谱清言      | https://chatglm.cn/                   |     |
-| AI文本人性化   | https://humanize.im/zh-CN             |     |
-| 腾讯元器      | https://yuanqi.tencent.com/agent-shop |     |
-| Napkin    | https://www.napkin.ai/                |     |
-| Chat01.ai | https://chat01.ai/?ref=nyi8wifx       |     |
+| 产品名称         | 标签          | 网址                                                                             | 介绍                                                   |
+|:------------ | ----------- |:------------------------------------------------------------------------------ |:---------------------------------------------------- |
+| **DeepSeek** | 【对话类】       | [https://chat.deepseek.com/](https://chat.deepseek.com/)                       | 深度求索推出的对话AI，擅长**长文本理解**与**代码生成**，适合开发者和企业级部署。        |
+| **ChatGPT**  | 【对话类】       | [https://chat.openai.com/](https://chat.openai.com/)                           | OpenAI开发的通用对话模型。                                     |
+| **Bard**     | 【对话类】       | [https://bard.google.com/](https://bard.google.com/)                           | Google基于**Gemini**的多模态模型。                            |
+| **文心一言**     | 【对话类】       | [https://yiyan.baidu.com/](https://yiyan.baidu.com/)                           | 百度开发的**多模态大模型**。                                     |
+| **通义千问**     | 【对话类】       | [https://tongyi.aliyun.com/](https://tongyi.aliyun.com/)                       | 阿里云推出的行业大模型。                                         |
+| **讯飞星火**     | 【对话类】       | [https://xinghuo.xfyun.cn/](https://xinghuo.xfyun.cn/)                         | 科大讯飞打造的**语音交互专家**。                                   |
+| **智谱清言**     | 【对话类】       | [https://chatglm.cn/](https://chatglm.cn/)                                     | 基于清华**ChatGLM**模型的智能工具。                              |
+| **AI文本人性化**  | 【对话类】、【辅助类】 | [https://humanize.im/zh-CN](https://humanize.im/zh-CN)                         | 专注于**AI内容去机械化**，将ChatGPT生成文本转化为自然口语化表达，适合自媒体与广告文案优化。 |
+| **腾讯元器**     | 【智能体开发】     | [https://yuanqi.tencent.com/agent-shop](https://yuanqi.tencent.com/agent-shop) | 腾讯的**智能体开发平台**，零代码创建行业AI助手。                          |
+| **Napkin**   | 【文生图】       | [https://www.napkin.ai/](https://www.napkin.ai/)                               | AI驱动的文生图工具。                                          |
 
 ### 🔦教程Tutorial
 
@@ -71,7 +72,7 @@
 | T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer | [论文](https://arxiv.org/abs/1910.10683)                                         | 提出T5模型，将所有NLP任务统一为文本到文本的框架。    | ⭐⭐⭐  |
 | Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context               | [论文](https://arxiv.org/abs/1901.02860)                                         | 提出Transformer-XL，支持更长上下文的语言模型。 | ⭐⭐⭐  |
 
-### 📖书籍推荐Books
+### 📖博客&书籍推荐Blog&Books
 
 | 教程  | Link | 说明  | 推荐星级 | 备注  |
 | --- | ---- | --- | ---- | --- |
