@@ -23,6 +23,7 @@
 
 ### 🌐AI大模型衍生产品Product
 
+
 | 产品名称         | 标签                   | 网址                                                                           | 介绍                                                                                        |
 | :--------------- | ---------------------- | :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
 | **DeepSeek**     | 【对话类】             | [https://chat.deepseek.com/](https://chat.deepseek.com/)                       | 深度求索推出的对话AI，擅长**长文本理解**与**代码生成**，适合开发者和企业级部署。            |
@@ -40,6 +41,7 @@
 
 ### 🔦教程Tutorial
 
+
 | 教程                     | 链接                                                          | 说明                                                | 推荐星级 |
 | :----------------------- | :------------------------------------------------------------ | :-------------------------------------------------- | :------: |
 | 面向初学者的人工智能课程 | [Link](https://github.com/microsoft/AI-For-Beginners)         | 微软推出的面向初学者的人工智能课程                  |  ⭐⭐⭐  |
@@ -52,6 +54,7 @@
 
 ### ⛏️项目工具Tools
 
+
 | 资料名称                  | 链接                                                 | 说明                                             | 推荐星级 |
 | :------------------------ | :--------------------------------------------------- | :----------------------------------------------- | :------: |
 | TensorFlow                | [TensorFlow](https://www.tensorflow.org/)            | Google开发的开源深度学习框架，支持多种平台。     | ⭐⭐⭐⭐ |
@@ -62,6 +65,7 @@
 更多请到【[Tools](./tools/README.md)】栏目查看
 
 ### 📜论文Papers
+
 
 | 资料名称                                                                              | 链接                                                                           | 说明                                                | 推荐星级 |
 | :------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------- | :-------------------------------------------------- | :------: |
@@ -84,19 +88,20 @@
 ### 📖博客&书籍推荐Blog&Books
 
 
-| 教程 | Link | 说明 | 推荐星级 | 备注 |
-| ---- | ---- | ---- | -------- | ---- |
-| 普通人如何使用 AI？ | [https://blog.csdn.net/z551646/article/details/143848325](https://blog.csdn.net/z551646/article/details/143848325) | 介绍了 AI 的基本概念和功能，以及普通人如何在日常生活中使用 AI。 | ★★★★☆ | 适合 AI 入门者。 |
-| AI 赋能，手把手教你第一次用 AI（保姆级教程） | [https://zhuanlan.zhihu.com/p/684988103](https://zhuanlan.zhihu.com/p/684988103) | 提供了详细的 AI 使用教程，包括从零开始的指导。 | ★★★★☆ | 适合对 AI 感兴趣的初学者。 |
-| 高效使用 AI 的 21 种技巧攻略（全是干货建议收藏！） | [https://zhuanlan.zhihu.com/p/14780214495](https://zhuanlan.zhihu.com/p/14780214495) | 分享了 21 种高效使用 AI 的技巧，内容实用。 | ★★★★☆ | 适合希望提高 AI 使用效率的用户。 |
-| DeepSeek R1 本地安装部署（保姆级教程） | [https://blog.csdn.net/zhishi0000/article/details/145450612](https://blog.csdn.net/zhishi0000/article/details/145450612) | 详细介绍了 DeepSeek R1 的本地部署方法，包括所需工具和步骤。 | ★★★★★ | 适合希望在本地部署 DeepSeek 的用户。 |
-| DeepSeek 本地化部署（保姆喂饭级教程） | [https://zhuanlan.zhihu.com/p/21030210489](https://zhuanlan.zhihu.com/p/21030210489) | 提供了 DeepSeek 的本地化部署教程，适合新手操作。 | ★★★★★ | 包含详细的步骤说明。 |
-| 零基础 AI 入门指南 | [https://www.liaoxuefeng.com/article/1543329456062498](https://www.liaoxuefeng.com/article/1543329456062498) | 针对零基础用户的 AI 入门指南，介绍了 AI 的工作原理和实践案例。 | ★★★★☆ | 由知名教程作者廖雪峰提供。 |
-| 十分钟用 DeepSeek v3 快速搭建企业级本地私有知识库（保姆级教程） | [https://blog.csdn.net/python12345_/article/details/145450272](https://blog.csdn.net/python12345_/article/details/145450272) | 教你如何使用 DeepSeek v3 快速搭建本地私有知识库。 | ★★★★★ | 适合企业级应用。 |
-| 新手如何入门 AI 教程 | [https://zhuanlan.zhihu.com/p/23833215517](https://zhuanlan.zhihu.com/p/23833215517) | 为新手提供的 AI 入门教程，介绍了可视化 AI 工具的使用。 | ★★★★☆ | 适合对 AI 感兴趣的初学者。 |
-| 详细教程｜DeepSeek 本地部署教程+可视化页面，简单易懂，新手也能轻松完成！ | [https://zhuanlan.zhihu.com/p/21629182611](https://zhuanlan.zhihu.com/p/21629182611) | 提供了 DeepSeek 本地部署的详细教程，并附有可视化页面。 | ★★★★★ | 适合希望在本地部署 DeepSeek 的新手。 |
-| AI 教程入门：从零开始掌握人工智能基础 | [https://www.imooc.com/article/356460](https://www.imooc.com/article/356460) | 从零开始的 AI 教程，涵盖人工智能的基础知识和应用。 | ★★★★☆ | 适合希望系统学习 AI 基础的用户。 |
-| 如何把 DeepSeek 部署在你的电脑上（保姆级） | [https://zhuanlan.zhihu.com/p/21133856147](https://zhuanlan.zhihu.com/p/21133856147) | 教你如何将 DeepSeek 部署在个人电脑上的详细教程。 | ★★★★★ | 包含详细的步骤说明，适合新手。 |[CSDN Blog](https://blog.csdn.net/z551646/article/details/143848325) [wired.com](https://www.wired.com/story/artificial-intelligence-tools-ai-unlocked-newsletter-season-two) [zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/684988103) [Imooc](https://www.imooc.com/article/356460) [zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/14780214495) [CSDN Blog](https://blog.csdn.net/zhishi0000/article/details/145450612) [vox.com](https://www.vox.com/technology/390866/technology-artifical-intelligence-chores-burnout) [zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/21030210489) [Liao Xuefeng](https://www.liaoxuefeng.com/article/1543329456062498) [CSDN Blog](https://blog.csdn.net/python12345_/article/details/145450272) [zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/23833215517) [zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/21629182611) [zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/21133856147)
+| 教程                                                                     | Link                                                                 | 说明                                                            | 推荐星级   | 备注                                       |
+| ------------------------------------------------------------------------ | -------------------------------------------------------------------- | --------------------------------------------------------------- | ---------- | ------------------------------------------ |
+| 普通人如何使用 AI？                                                      | [Link](https://blog.csdn.net/z551646/article/details/143848325)      | 介绍了 AI 的基本概念和功能，以及普通人如何在日常生活中使用 AI。 | ⭐⭐⭐     | 适合 AI 入门者。                           |
+| AI 赋能，手把手教你第一次用 AI（保姆级教程）                             | [Link](https://zhuanlan.zhihu.com/p/684988103)                       | 提供了详细的 AI 使用教程，包括从零开始的指导。                  | ⭐⭐⭐     | 适合对 AI 感兴趣的初学者。                 |
+| 高效使用 AI 的 21 种技巧攻略（全是干货建议收藏！）                       | [Link](https://zhuanlan.zhihu.com/p/14780214495)                     | 分享了 21 种高效使用 AI 的技巧，内容实用。                      | ⭐⭐⭐ | 适合希望提高 AI 使用效率的用户。           |
+| DeepSeek R1 本地安装部署（保姆级教程）                                   | [Link](https://blog.csdn.net/zhishi0000/article/details/145450612)   | 详细介绍了 DeepSeek R1 的本地部署方法，包括所需工具和步骤。     | ⭐⭐⭐ | 适合希望在本地部署 DeepSeek 的用户。       |
+| DeepSeek 本地化部署（保姆喂饭级教程）                                    | [Link](https://zhuanlan.zhihu.com/p/21030210489)                     | 提供了 DeepSeek 的本地化部署教程，适合新手操作。                | ⭐⭐⭐ | 包含详细的步骤说明。                       |
+| 零基础 AI 入门指南                                                       | [Link](https://www.liaoxuefeng.com/article/1543329456062498)         | 针对零基础用户的 AI 入门指南，介绍了 AI 的工作原理和实践案例。  | ⭐⭐⭐ | 由知名教程作者廖雪峰提供。                 |
+| 十分钟用 DeepSeek v3 快速搭建企业级本地私有知识库（保姆级教程）          | [Link](https://blog.csdn.net/python12345_/article/details/145450272) | 教你如何使用 DeepSeek v3 快速搭建本地私有知识库。               | ⭐⭐⭐ | 适合企业级应用。                           |
+| 新手如何入门 AI 教程                                                     | [Link](https://zhuanlan.zhihu.com/p/23833215517)                     | 为新手提供的 AI 入门教程，介绍了可视化 AI 工具的使用。          | ⭐⭐⭐ | 适合对 AI 感兴趣的初学者。                 |
+| 详细教程｜DeepSeek 本地部署教程+可视化页面，简单易懂，新手也能轻松完成！ | [Link](https://zhuanlan.zhihu.com/p/21629182611)                     | 提供了 DeepSeek 本地部署的详细教程，并附有可视化页面。          | ⭐⭐⭐ | 适合希望在本地部署 DeepSeek 的新手。       |
+| AI 教程入门：从零开始掌握人工智能基础                                    | [Link](https://www.imooc.com/article/356460)                         | 从零开始的 AI 教程，涵盖人工智能的基础知识和应用。              | ⭐⭐⭐ | 适合希望系统学习 AI 基础的用户。           |
+| 如何把 DeepSeek 部署在你的电脑上（保姆级）                               | [Link](https://zhuanlan.zhihu.com/p/21133856147)                     | 教你如何将 DeepSeek 部署在个人电脑上的详细教程。                | ⭐⭐⭐ | 包含详细的步骤说明，适合新手。             |
+| 大模型核心概念科普：Token、上下文长度、最大输出，一次讲透                | [Link](https://mp.weixin.qq.com/s/SXT2wuM0sox34PRrqWWAzw)            | 大模型核心概念科普。                                            | ⭐⭐⭐ | 适合对部分AI大模型接口概念不了解的开发者。 |
 
 更多请到【[Blog](./blogs/README.md)】栏目查看
 
