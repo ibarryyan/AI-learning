@@ -22,18 +22,18 @@
 
 ### 🌐AI大模型衍生产品Product
 
-| 产品名称         | 标签          | 网址                                                                             | 介绍                                                   |
-|:------------ | ----------- |:------------------------------------------------------------------------------ |:---------------------------------------------------- |
-| **DeepSeek** | 【对话类】       | [Link](https://chat.deepseek.com/)                       | 深度求索推出的对话AI，擅长**长文本理解**与**代码生成**，适合开发者和企业级部署。        |
-| **ChatGPT**  | 【对话类】       | [Link](https://chat.openai.com/)                           | OpenAI开发的通用对话模型。                                     |
-| **Bard**     | 【对话类】       | [Link](https://bard.google.com/)                           | Google基于**Gemini**的多模态模型。                            |
-| **文心一言**     | 【对话类】       | [Link](https://yiyan.baidu.com/)                           | 百度开发的**多模态大模型**。                                     |
-| **通义千问**     | 【对话类】       | [Link](https://tongyi.aliyun.com/)                       | 阿里云推出的行业大模型。                                         |
-| **讯飞星火**     | 【对话类】       | [Link](https://xinghuo.xfyun.cn/)                         | 科大讯飞打造的**语音交互专家**。                                   |
-| **智谱清言**     | 【对话类】       | [Link](https://chatglm.cn/)                                     | 基于清华**ChatGLM**模型的智能工具。                              |
-| **AI文本人性化**  | 【对话类】、【辅助类】 | [Link](https://humanize.im/zh-CN)                         | 专注于**AI内容去机械化**，将ChatGPT生成文本转化为自然口语化表达，适合自媒体与广告文案优化。 |
+| 产品名称         | 标签          | 网址                                            | 介绍                                                   |
+|:------------ | ----------- |:--------------------------------------------- |:---------------------------------------------------- |
+| **DeepSeek** | 【对话类】       | [Link](https://chat.deepseek.com/)            | 深度求索推出的对话AI，擅长**长文本理解**与**代码生成**，适合开发者和企业级部署。        |
+| **ChatGPT**  | 【对话类】       | [Link](https://chat.openai.com/)              | OpenAI开发的通用对话模型。                                     |
+| **Bard**     | 【对话类】       | [Link](https://bard.google.com/)              | Google基于**Gemini**的多模态模型。                            |
+| **文心一言**     | 【对话类】       | [Link](https://yiyan.baidu.com/)              | 百度开发的**多模态大模型**。                                     |
+| **通义千问**     | 【对话类】       | [Link](https://tongyi.aliyun.com/)            | 阿里云推出的行业大模型。                                         |
+| **讯飞星火**     | 【对话类】       | [Link](https://xinghuo.xfyun.cn/)             | 科大讯飞打造的**语音交互专家**。                                   |
+| **智谱清言**     | 【对话类】       | [Link](https://chatglm.cn/)                   | 基于清华**ChatGLM**模型的智能工具。                              |
+| **AI文本人性化**  | 【对话类】、【辅助类】 | [Link](https://humanize.im/zh-CN)             | 专注于**AI内容去机械化**，将ChatGPT生成文本转化为自然口语化表达，适合自媒体与广告文案优化。 |
 | **腾讯元器**     | 【智能体开发】     | [Link](https://yuanqi.tencent.com/agent-shop) | 腾讯的**智能体开发平台**，零代码创建行业AI助手。                          |
-| **Napkin**   | 【文生图】       | [Link](https://www.napkin.ai/)                               | AI驱动的文生图工具。                                          |
+| **Napkin**   | 【文生图】       | [Link](https://www.napkin.ai/)                | AI驱动的文生图工具。                                          |
 
 更多请到【[Product](./product/README.md)】栏目查看
 
@@ -65,18 +65,18 @@
 | 资料名称                                                                                  | 链接                                                                             | 说明                             | 推荐星级 |
 |:------------------------------------------------------------------------------------- |:------------------------------------------------------------------------------ |:------------------------------ |:----:|
 | 2024年值得注意的人工智能研究论文（一）                                                                 | [Link](https://magazine.sebastianraschka.com/p/ai-research-papers-2024-part-1) | 2024年值得注意的人工智能研究论文（一）          | ⭐⭐⭐  |
-| Attention Is All You Need                                                             | [Link](https://arxiv.org/abs/1706.03762)                                         | 提出Transformer模型，是现代大语言模型的基础。   | ⭐⭐⭐  |
-| BERT: Pre-training of Deep Bidirectional Transformers                                 | [Link](https://arxiv.org/abs/1810.04805)                                         | 提出BERT模型，开启了预训练语言模型的新篇章。       | ⭐⭐⭐  |
-| GPT-3: Language Models are Few-Shot Learners                                          | [Link](https://arxiv.org/abs/2005.14165)                                         | 描述GPT-3模型的架构与能力，展示其在多任务中的表现。   | ⭐⭐⭐  |
-| Vision Transformer (ViT)                                                              | [Link](https://arxiv.org/abs/2010.11929)                                         | 将Transformer架构应用于计算机视觉任务。      | ⭐⭐   |
-| YOLOv4: Optimal Speed and Accuracy                                                    | [Link](https://arxiv.org/abs/2004.10934)                                         | 提出YOLOv4模型，提升了目标检测的速度与准确性。     | ⭐⭐   |
-| Reinforcement Learning with Unsupervised Auxiliary Tasks                              | [Link](https://arxiv.org/abs/1611.05397)                                         | 探讨在强化学习中引入辅助任务以提升性能。           | ⭐⭐   |
-| Self-Attention Generative Adversarial Networks (SAGAN)                                | [Link](https://arxiv.org/abs/1805.08318)                                         | 在GAN中引入自注意力机制，提升生成效果。          | ⭐⭐   |
-| CLIP: Learning Transferable Visual Models                                             | [Link](https://arxiv.org/abs/2103.00020)                                         | 结合图像与文本的对比学习模型，提升多模态理解能力。      | ⭐⭐⭐  |
-| AlphaFold: Using AI for Scientific Discovery                                          | [Link](https://www.nature.com/articles/s41586-021-03819-2)                       | DeepMind开发的蛋白质结构预测模型，突破性成果。    | ⭐⭐⭐  |
-| Sparse Transformer                                                                    | [Link](https://arxiv.org/abs/1904.10509)                                         | 提出稀疏注意力机制，提升Transformer的效率。    | ⭐⭐⭐  |
-| T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer | [Link](https://arxiv.org/abs/1910.10683)                                         | 提出T5模型，将所有NLP任务统一为文本到文本的框架。    | ⭐⭐⭐  |
-| Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context               | [Link](https://arxiv.org/abs/1901.02860)                                         | 提出Transformer-XL，支持更长上下文的语言模型。 | ⭐⭐⭐  |
+| Attention Is All You Need                                                             | [Link](https://arxiv.org/abs/1706.03762)                                       | 提出Transformer模型，是现代大语言模型的基础。   | ⭐⭐⭐  |
+| BERT: Pre-training of Deep Bidirectional Transformers                                 | [Link](https://arxiv.org/abs/1810.04805)                                       | 提出BERT模型，开启了预训练语言模型的新篇章。       | ⭐⭐⭐  |
+| GPT-3: Language Models are Few-Shot Learners                                          | [Link](https://arxiv.org/abs/2005.14165)                                       | 描述GPT-3模型的架构与能力，展示其在多任务中的表现。   | ⭐⭐⭐  |
+| Vision Transformer (ViT)                                                              | [Link](https://arxiv.org/abs/2010.11929)                                       | 将Transformer架构应用于计算机视觉任务。      | ⭐⭐   |
+| YOLOv4: Optimal Speed and Accuracy                                                    | [Link](https://arxiv.org/abs/2004.10934)                                       | 提出YOLOv4模型，提升了目标检测的速度与准确性。     | ⭐⭐   |
+| Reinforcement Learning with Unsupervised Auxiliary Tasks                              | [Link](https://arxiv.org/abs/1611.05397)                                       | 探讨在强化学习中引入辅助任务以提升性能。           | ⭐⭐   |
+| Self-Attention Generative Adversarial Networks (SAGAN)                                | [Link](https://arxiv.org/abs/1805.08318)                                       | 在GAN中引入自注意力机制，提升生成效果。          | ⭐⭐   |
+| CLIP: Learning Transferable Visual Models                                             | [Link](https://arxiv.org/abs/2103.00020)                                       | 结合图像与文本的对比学习模型，提升多模态理解能力。      | ⭐⭐⭐  |
+| AlphaFold: Using AI for Scientific Discovery                                          | [Link](https://www.nature.com/articles/s41586-021-03819-2)                     | DeepMind开发的蛋白质结构预测模型，突破性成果。    | ⭐⭐⭐  |
+| Sparse Transformer                                                                    | [Link](https://arxiv.org/abs/1904.10509)                                       | 提出稀疏注意力机制，提升Transformer的效率。    | ⭐⭐⭐  |
+| T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer | [Link](https://arxiv.org/abs/1910.10683)                                       | 提出T5模型，将所有NLP任务统一为文本到文本的框架。    | ⭐⭐⭐  |
+| Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context               | [Link](https://arxiv.org/abs/1901.02860)                                       | 提出Transformer-XL，支持更长上下文的语言模型。 | ⭐⭐⭐  |
 
 更多请到【[Paper](./papers/README.md)】栏目查看
 
