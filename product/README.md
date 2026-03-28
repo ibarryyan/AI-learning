@@ -1,40 +1,195 @@
-# AI大模型产品列表
+# 💡 AI 产品专辑 | Products
 
-## 通用对话类
-| 产品名称 | 官方地址 | 特色描述 | 分类标签 |
-| --- | --- | --- | --- |
-| 文心一言 | [https://yiyan.baidu.com/](https://yiyan.baidu.com/) | 百度推出的大语言模型，支持多模态对话，擅长中文创作和知识问答 | 【对话】【多模态】 |
-| 通义千问 | [https://tongyi.aliyun.com/](https://tongyi.aliyun.com/) | 阿里云推出的大模型，具备代码理解和生成能力，支持插件扩展 | 【对话】【编程】 |
-| 讯飞星火 | [https://xinghuo.xfyun.cn/](https://xinghuo.xfyun.cn/) | 科大讯飞推出的认知大模型，语音交互体验优秀，支持方言识别 | 【对话】【语音】 |
-| 智谱清言 | [https://chatglm.cn/](https://chatglm.cn/) | 基于ChatGLM的对话模型，注重学术和专业领域，推理能力强 | 【对话】【学术】 |
-| 月之暗面 | [https://www.moonshot.cn/](https://www.moonshot.cn/) | 专注于代码开发的AI助手，支持多种编程语言和框架 | 【对话】【编程】 |
-| DeepSeek | [https://chat.deepseek.com/](https://chat.deepseek.com/) | 擅长长文本理解与代码生成，适合开发者使用 | 【对话】【编程】 |
+> 主流 AI 产品一览，涵盖对话、编程、图像等各类应用。
 
-## 多模态类
-| 产品名称 | 官方地址 | 特色描述 | 分类标签 |
-| --- | --- | --- | --- |
-| 通义万相 | [https://wanxiang.aliyun.com/](https://wanxiang.aliyun.com/) | 阿里推出的AI绘画创作平台，支持多种艺术风格 | 【绘画】【创作】 |
-| 文心一格 | [https://yige.baidu.com/](https://yige.baidu.com/) | 百度推出的AI创意和设计平台，支持图片生成和编辑 | 【设计】【创作】 |
-| 腾讯混元 | [https://hunyuan.tencent.com/](https://hunyuan.tencent.com/) | 支持图文音视频多模态理解，商业应用能力强 | 【多模态】【商用】 |
-| Midjourney | [https://www.midjourney.com/](https://www.midjourney.com/) | 专业级AI绘画工具，擅长艺术创作和概念设计 | 【绘画】【艺术】 |
-| Stable Diffusion | [https://stability.ai/](https://stability.ai/) | 开源图像生成模型，支持本地部署和自定义训练 | 【绘画】【开源】 |
+---
 
-## 垂直领域类
-| 产品名称 | 官方地址 | 特色描述 | 分类标签 |
-| --- | --- | --- | --- |
-| 智能律师 | [https://www.lawyertech.cn/](https://www.lawyertech.cn/) | 专注于法律咨询和文书处理的AI助手 | 【法律】【专业】 |
-| 医疗助手 | [https://yizhun.zhihu.com/](https://yizhun.zhihu.com/) | 知乎推出的医疗问诊和健康咨询AI | 【医疗】【健康】 |
-| 腾讯元器 | [https://yuanqi.tencent.com/](https://yuanqi.tencent.com/) | 零代码智能体开发平台，可快速构建行业AI助手 | 【开发】【平台】 |
-| 智能教育助手 | [https://www.yuanfudao.com/](https://www.yuanfudao.com/) | 猿辅导推出的AI教育辅导工具，支持个性化学习 | 【教育】【辅导】 |
-| 金融分析师 | [https://www.modelscope.cn/](https://www.modelscope.cn/) | 阿里达摩院推出的金融数据分析和预测平台 | 【金融】【分析】 |
-| 设计师助手 | [https://www.canva.com/ai-tools/](https://www.canva.com/ai-tools/) | Canva推出的AI设计工具，支持智能排版和创意生成 | 【设计】【创意】 |
+## 🗂️ 目录分类
 
-## 辅助工具类
-| 产品名称 | 官方地址 | 特色描述 | 分类标签 |
-| --- | --- | --- | --- |
-| AI文本人性化 | [https://humanize.im/zh-CN](https://humanize.im/zh-CN) | 专注于AI内容去机械化，适合自媒体与广告文案优化 | 【文案】【优化】 |
-| 商汤日报 | [https://techday.sensetime.com/](https://techday.sensetime.com/) | AI辅助新闻写作和内容生成平台 | 【新闻】【创作】 |
-| 智能写作助手 | [https://writingo.net/](https://writingo.net/) | 提供多场景写作辅助，支持多种文体转换 | 【写作】【创作】 |
-| 视频剪辑助手 | [https://www.runway.ml/](https://www.runway.ml/) | AI驱动的视频编辑工具，支持智能剪辑和特效生成 | 【视频】【编辑】 |
-| 音频处理工具 | [https://elevenlabs.io/](https://elevenlabs.io/) | AI语音合成和编辑平台，支持多语言和情感表达 | 【音频】【语音】 |
-| 翻译助手 | [https://www.deepl.com/](https://www.deepl.com/) | 基于深度学习的翻译工具，准确度高，支持多语种 | 【翻译】【语言】 |
+- [通用对话](#通用对话)
+- [AI 编程](#ai-编程)
+- [AI 图像](#ai-图像)
+- [AI 视频](#ai-视频)
+- [AI 语音](#ai-语音)
+- [AI 搜索](#ai-搜索)
+- [办公效率](#办公效率)
+- [智能体开发](#智能体开发)
+
+---
+
+## 通用对话
+
+| 产品 | 链接 | 特色 | 推荐度 |
+|:-----|:-----|:-----|:------:|
+| **DeepSeek** | [官网](https://chat.deepseek.com/) | 长文本理解、代码生成强 | ⭐⭐⭐⭐⭐ |
+| **ChatGPT** | [官网](https://chat.openai.com/) | OpenAI 通用对话 | ⭐⭐⭐⭐⭐ |
+| **Claude** | [官网](https://claude.ai/) | Anthropic 出品，更安全 | ⭐⭐⭐⭐⭐ |
+| **文心一言** | [官网](https://yiyan.baidu.com/) | 百度多模态大模型 | ⭐⭐⭐⭐ |
+| **通义千问** | [官网](https://tongyi.aliyun.com/) | 阿里云行业大模型 | ⭐⭐⭐⭐ |
+| **智谱清言** | [官网](https://chatglm.cn/) | ChatGLM 商业版 | ⭐⭐⭐⭐ |
+| **Kimi** | [官网](https://kimi.moonshot.cn/) | 长文本处理 | ⭐⭐⭐⭐⭐ |
+| **讯飞星火** | [官网](https://xinghuo.xfyun.cn/) | 语音交互优秀 | ⭐⭐⭐⭐ |
+
+---
+
+## AI 编程
+
+| 产品 | 链接 | 特色 | 推荐度 |
+|:-----|:-----|:-----|:------:|
+| **Cursor** | [官网](https://cursor.sh/) | AI 增强版 VS Code | ⭐⭐⭐⭐⭐ |
+| **Windsurf** | [官网](https://codeium.com/windsurf) | AI 编程新秀 | ⭐⭐⭐⭐⭐ |
+| **GitHub Copilot** | [官网](https://github.com/features/copilot) | GitHub 官方 AI 编程 | ⭐⭐⭐⭐ |
+| **通义灵码** | [官网](https://tongyi.aliyun.com/lingma) | 阿里 AI 编程助手 | ⭐⭐⭐⭐ |
+| **文心快码** | [官网](https://cloud.baidu.com/product/codeassist.html) | 百度 AI 编程 | ⭐⭐⭐⭐ |
+| **CodeWhisperer** | [官网](https://aws.amazon.com/codewhisperer/) | Amazon AI 编程 | ⭐⭐⭐⭐ |
+
+---
+
+## AI 图像
+
+### 文生图
+
+| 产品 | 链接 | 特色 | 推荐度 |
+|:-----|:-----|:-----|:------:|
+| **Midjourney** | [官网](https://www.midjourney.com/) | 艺术级 AI 绘画 | ⭐⭐⭐⭐⭐ |
+| **Stable Diffusion** | [官网](https://stability.ai/) | 开源图像生成 | ⭐⭐⭐⭐⭐ |
+| **DALL-E 3** | [官网](https://openai.com/dall-e-3/) | OpenAI 图像生成 | ⭐⭐⭐⭐⭐ |
+| **Adobe Firefly** | [官网](https://www.adobe.com/sensei/generative-ai/firefly.html) | Adobe AI 创意 | ⭐⭐⭐⭐ |
+| **通义万相** | [官网](https://wanxiang.aliyun.com/) | 阿里 AI 绘画 | ⭐⭐⭐⭐ |
+| **文心一格** | [官网](https://yige.baidu.com/) | 百度 AI 创意 | ⭐⭐⭐⭐ |
+| **Vega AI** | [官网](https://www.vegaai.net/) | 国内 AI 绘画 | ⭐⭐⭐⭐ |
+
+### 图像编辑
+
+| 产品 | 链接 | 特色 | 推荐度 |
+|:-----|:-----|:-----|:------:|
+| **Remove.bg** | [官网](https://www.remove.bg/) | AI 抠图 | ⭐⭐⭐⭐⭐ |
+| **Clipdrop** | [官网](https://clipdrop.co/) | 图像编辑工具 | ⭐⭐⭐⭐⭐ |
+| **Canva AI** | [官网](https://www.canva.com/ai-tools/) | AI 设计 | ⭐⭐⭐⭐ |
+
+---
+
+## AI 视频
+
+| 产品 | 链接 | 特色 | 推荐度 |
+|:-----|:-----|:-----|:------:|
+| **Sora** | [官网](https://openai.com/sora) | OpenAI 视频生成 | ⭐⭐⭐⭐⭐ |
+| **Runway** | [官网](https://runway.ml/) | AI 视频编辑与生成 | ⭐⭐⭐⭐⭐ |
+| **Pika** | [官网](https://pika.art/) | AI 视频生成 | ⭐⭐⭐⭐⭐ |
+| **Luma Dream Machine** | [官网](https://lumalabs.ai/dream-machine) | AI 视频 | ⭐⭐⭐⭐⭐ |
+| **可灵 AI** | [官网](https://klingai.com/) | 快手 AI 视频 | ⭐⭐⭐⭐ |
+| **海螺 AI** | [官网](https://www.hailuoai.com/) | 字节跳动视频 | ⭐⭐⭐⭐ |
+| **腾讯智影** | [官网](https://zenvideo.qq.com/) | 腾讯视频 AI | ⭐⭐⭐⭐ |
+
+---
+
+## AI 语音
+
+| 产品 | 链接 | 特色 | 推荐度 |
+|:-----|:-----|:-----|:------:|
+| **ElevenLabs** | [官网](https://elevenlabs.io/) | AI 语音合成 | ⭐⭐⭐⭐⭐ |
+| **Azure TTS** | [官网](https://azure.microsoft.com/services/cognitive-services/text-to-speech/) | 微软语音合成 | ⭐⭐⭐⭐ |
+| **剪映** | [官网](https://www.capcut.cn/) | AI 剪辑配音 | ⭐⭐⭐⭐⭐ |
+| **讯飞智作** | [官网](https://zvoo.xfyun.cn/) | 讯飞 AI 语音 | ⭐⭐⭐⭐ |
+
+### 数字人
+
+| 产品 | 链接 | 特色 |
+|:-----|:-----|:-----|
+| **HeyGen** | [官网](https://www.heygen.com/) | 数字人视频 |
+| **D-ID** | [官网](https://www.d-id.com/) | 数字人 |
+| **腾讯智影** | [官网](https://zenvideo.qq.com/) | 数字人 |
+
+---
+
+## AI 搜索
+
+| 产品 | 链接 | 特色 | 推荐度 |
+|:-----|:-----|:-----|:------:|
+| **Perplexity** | [官网](https://www.perplexity.ai/) | AI 搜索 | ⭐⭐⭐⭐⭐ |
+| **Arc Search** | [官网](https://arc.net/) | AI 搜索 | ⭐⭐⭐⭐⭐ |
+| **Kimi** | [官网](https://kimi.moonshot.cn/) | AI 搜索 | ⭐⭐⭐⭐⭐ |
+| **秘塔 AI** | [官网](https://metaso.cn/) | 中文 AI 搜索 | ⭐⭐⭐⭐ |
+| **360 AI** | [官网](https://ai.360.cn/) | 360 AI 搜索 | ⭐⭐⭐⭐ |
+
+---
+
+## 办公效率
+
+### 文档处理
+
+| 产品 | 链接 | 特色 | 推荐度 |
+|:-----|:-----|:-----|:------:|
+| **Notion AI** | [官网](https://www.notion.so/product/ai) | 文档 AI | ⭐⭐⭐⭐⭐ |
+| **WPS AI** | [官网](https://www.wps.cn/) | WPS 办公 AI | ⭐⭐⭐⭐ |
+| **腾讯文档 AI** | [官网](https://docs.qq.com/) | 腾讯文档 AI | ⭐⭐⭐⭐ |
+
+### PPT 演示
+
+| 产品 | 链接 | 特色 | 推荐度 |
+|:-----|:-----|:-----|:------:|
+| **Gamma** | [官网](https://gamma.app/) | AI PPT | ⭐⭐⭐⭐⭐ |
+| **Tome** | [官网](https://tome.app/) | AI 演示 | ⭐⭐⭐⭐⭐ |
+| **Beautiful.ai** | [官网](https://www.beautiful.ai/) | AI PPT | ⭐⭐⭐⭐ |
+| **AiPPT** | [官网](https://www.aippt.cn/) | 中文 AI PPT | ⭐⭐⭐⭐ |
+
+### 翻译
+
+| 产品 | 链接 | 特色 | 推荐度 |
+|:-----|:-----|:-----|:------:|
+| **DeepL** | [官网](https://www.deepl.com/) | AI 翻译 | ⭐⭐⭐⭐⭐ |
+| **Google Translate** | [官网](https://translate.google.com/) | 谷歌翻译 | ⭐⭐⭐⭐ |
+| **有道翻译** | [官网](https://fanyi.youdao.com/) | 网易翻译 | ⭐⭐⭐⭐ |
+
+---
+
+## 智能体开发
+
+| 产品 | 链接 | 特色 | 推荐度 |
+|:-----|:-----|:-----|:------:|
+| **腾讯元器** | [官网](https://yuanqi.tencent.com/) | 零代码智能体平台 | ⭐⭐⭐⭐⭐ |
+| **文心智能体** | [官网](https://agents.baidu.com/) | 百度智能体 | ⭐⭐⭐⭐ |
+| **钉钉 AI 助理** | [官网](https://www.dingtalk.com/) | 企业 AI 助手 | ⭐⭐⭐⭐ |
+| **Coze** | [官网](https://www.coze.com/) | 字节跳动智能体 | ⭐⭐⭐⭐⭐ |
+
+---
+
+## 📊 产品分类图
+
+```
+AI 产品生态:
+│
+├── 💬 对话
+│   ├── 通用: ChatGPT, Claude, DeepSeek
+│   └── 中文: 文心一言, 通义千问, Kimi
+│
+├── 💻 编程
+│   ├── IDE: Cursor, Windsurf
+│   └── 插件: Copilot, 通义灵码
+│
+├── 🎨 图像
+│   ├── 文生图: Midjourney, Stable Diffusion
+│   └── 编辑: Remove.bg, Clipdrop
+│
+├── 🎬 视频
+│   ├── 生成: Sora, Runway, Pika
+│   └── 剪辑: 剪映, 腾讯智影
+│
+├── 🔍 搜索
+│   └── Perplexity, Kimi, 秘塔 AI
+│
+└── 📊 办公
+    ├── 文档: Notion AI, WPS AI
+    └── PPT: Gamma, Tome
+```
+
+---
+
+## 🔗 相关链接
+
+- [AI 工具补充](../docs/ai-tools-supplement.md)
+- [AI Coding IDE](../docs/ai-coding-ide.md)
+
+---
+
+> 💡 **提示**: 不同产品有不同的优势场景，建议根据具体需求选择合适的产品组合。

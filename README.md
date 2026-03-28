@@ -1,108 +1,253 @@
-## 🚢程序员AI学习指南
+# 🚀 AI 学习指南 | AI Learning Guide
 
+[![](https://img.shields.io/github/stars/ibarryyan/AI-learning.svg?style=flat)](https://github.com/ibarryyan/AI-learning/stargazers)
 ![Static Badge](https://img.shields.io/badge/AI%20Learning-闫同学-8A2BE2)
 <a href="https://github.com/ibarryyan/golang-tips-100/blob/master/img/wechat.jpg"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E6%89%AF%E7%BC%96%E7%A8%8B%E7%9A%84%E6%B7%A1-blue" alt="公众号"></a>
-[![](https://img.shields.io/github/stars/ibarryyan/AI-learning.svg?style=flat)](https://github.com/ibarryyan/AI-learning/stargazers)
 
-收集和整理与AI学习相关的资源，包括但不限于教程、代码示例、论文、书籍推荐等。无论你是AI领域的新手还是有一定经验的开发者，都希望这个仓库能对你有所帮助。
+> 全面、系统的 AI 学习资源汇总。无论你是 AI 领域的新手还是有一定经验的开发者，这个仓库都能帮助你更好地学习和应用 AI 技术。
 
-### 🟢开源AI大模型Models
+---
 
-| 模型            | 链接                                                          | 说明                              | 推荐星级 |
-|:------------- |:----------------------------------------------------------- |:------------------------------- |:----:|
-| LLaMA2        | [LLaMA2](https://github.com/facebookresearch/llama)         | Meta推出的开源大语言模型，适用于研究与应用。        | ⭐⭐⭐⭐ |
-| GPT-J         | [GPT-J](https://github.com/kingoflolz/mesh-transformer-jax) | EleutherAI开发的开源大语言模型，性能接近GPT-3。 | ⭐⭐⭐⭐ |
-| Alpaca        | [Alpaca](https://github.com/tatsu-lab/stanford_alpaca)      | 基于LLaMA的指令调优模型，适用于交互式应用。        | ⭐⭐⭐⭐ |
-| OpenAssistant | [OpenAssistant](https://github.com/LAION-AI/Open-Assistant) | LAION开发的开源助手模型，注重对话能力。          | ⭐⭐⭐⭐ |
-| Vicuna        | [Vicuna](https://github.com/lm-sys/FastChat)                | 基于LLaMA的对话优化模型，适用于交互式应用。        | ⭐⭐⭐⭐ |
-| GPT-NeoX      | [GPT-NeoX](https://github.com/EleutherAI/gpt-neox)          | EleutherAI开发的开源大语言模型，支持大规模训练。   | ⭐⭐⭐⭐ |
-| DeepSeek-V3   | [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)   | 深度求索开源的对话模型，支持长上下文，中文任务优化明显     | ⭐⭐⭐⭐ |
-| DeepSeek-MoE  | [DeepSeek-MoE](https://github.com/deepseek-ai/DeepSeek-MoE) | 基于混合专家架构的高效稀疏模型，推理成本低           | ⭐⭐⭐⭐ |
-| Qwen          | [Qwen](https://github.com/QwenLM/Qwen)                      | 阿里开源的通义千问大模型                    | ⭐⭐⭐⭐ |
+## 📋 目录导航
 
-### 🌐AI大模型衍生产品Product
+- [📖 项目概览](#-项目概览)
+- [🚀 快速开始](#-快速开始)
+- [🤖 开源大模型](#-开源大模型)
+- [🛠️ 开发工具](#️-开发工具)
+- [📚 学习教程](#-学习教程)
+- [📄 核心论文](#-核心论文)
+- [💡 应用产品](#-应用产品)
+- [📖 博客资源](#-博客资源)
+- [🗂️ 项目仓库](#️-项目仓库)
+- [🔧 专题深入](#-专题深入)
+- [📎 联系作者](#-联系作者)
 
-| 产品名称         | 标签          | 网址                                            | 介绍                                                   |
-|:------------ | ----------- |:--------------------------------------------- |:---------------------------------------------------- |
-| **DeepSeek** | 【对话类】       | [Link](https://chat.deepseek.com/)            | 深度求索推出的对话AI，擅长**长文本理解**与**代码生成**，适合开发者和企业级部署。        |
-| **ChatGPT**  | 【对话类】       | [Link](https://chat.openai.com/)              | OpenAI开发的通用对话模型。                                     |
-| **Bard**     | 【对话类】       | [Link](https://bard.google.com/)              | Google基于**Gemini**的多模态模型。                            |
-| **文心一言**     | 【对话类】       | [Link](https://yiyan.baidu.com/)              | 百度开发的**多模态大模型**。                                     |
-| **通义千问**     | 【对话类】       | [Link](https://tongyi.aliyun.com/)            | 阿里云推出的行业大模型。                                         |
-| **讯飞星火**     | 【对话类】       | [Link](https://xinghuo.xfyun.cn/)             | 科大讯飞打造的**语音交互专家**。                                   |
-| **智谱清言**     | 【对话类】       | [Link](https://chatglm.cn/)                   | 基于清华**ChatGLM**模型的智能工具。                              |
-| **AI文本人性化**  | 【对话类】、【辅助类】 | [Link](https://humanize.im/zh-CN)             | 专注于**AI内容去机械化**，将ChatGPT生成文本转化为自然口语化表达，适合自媒体与广告文案优化。 |
-| **腾讯元器**     | 【智能体开发】     | [Link](https://yuanqi.tencent.com/agent-shop) | 腾讯的**智能体开发平台**，零代码创建行业AI助手。                          |
-| **Napkin**   | 【文生图】       | [Link](https://www.napkin.ai/)                | AI驱动的文生图工具。                                          |
+---
 
-更多请到【[Product](./product/README.md)】栏目查看
+## 📖 项目概览
 
-### 🔦教程Tutorial
+本仓库收集和整理与 AI 学习相关的资源，涵盖：
 
-| 教程              | 链接                                                            | 说明                          | 推荐星级 |
-|:--------------- |:------------------------------------------------------------- |:--------------------------- |:----:|
-| 面向初学者的人工智能课程    | [Link](https://github.com/microsoft/AI-For-Beginners)         | 微软推出的面向初学者的人工智能课程           | ⭐⭐⭐  |
-| LLMCookbook     | [LLMCookbook](https://github.com/datawhalechina/llm-cookbook) | 面向开发者的大模型系列教程，涵盖API使用与应用开发。 | ⭐⭐⭐⭐ |
-| Hugging Face 教程 | [Hugging Face](https://huggingface.co/learn)                  | 提供丰富的NLP模型使用与训练教程。          | ⭐⭐⭐  |
-| Stanford CS224n | [CS224n](http://web.stanford.edu/class/cs224n/)               | 斯坦福大学的自然语言处理课程，涵盖最新研究进展。    | ⭐⭐⭐⭐ |
-| PyTorch 官方教程    | [PyTorch Tutorials](https://pytorch.org/tutorials/)           | 官方提供的PyTorch使用与深度学习教程。      | ⭐⭐⭐  |
+| 分类 | 描述 |
+|------|------|
+| 🤖 开源大模型 | LLaMA、DeepSeek、Qwen 等主流开源大语言模型 |
+| 🛠️ 开发工具 | PyTorch、Transformers、vLLM 等 AI 开发框架 |
+| 📚 学习教程 | 微软、Stanford、Hugging Face 等优质教程 |
+| 📄 核心论文 | Transformer、BERT、GPT 等奠基性论文 |
+| 💡 应用产品 | ChatGPT、DeepSeek、文心一言等产品 |
+| 📖 博客资源 | 实战教程、入门指南、部署经验 |
+| 🗂️ 项目仓库 | LangChain、LLaMA-Factory 等热门开源项目 |
 
-更多请到【[Tutorial](./tutorial/README.md)】栏目查看
+---
 
-### ⛏️项目工具Tools
+## 🚀 快速开始
 
-| 资料名称                      | 链接                                                   | 说明                           | 推荐星级 |
-|:------------------------- |:---------------------------------------------------- |:---------------------------- |:----:|
-| TensorFlow                | [TensorFlow](https://www.tensorflow.org/)            | Google开发的开源深度学习框架，支持多种平台。    | ⭐⭐⭐⭐ |
-| PyTorch                   | [PyTorch](https://pytorch.org/)                      | Facebook开发的深度学习框架，灵活性高，适合研究。 | ⭐⭐⭐⭐ |
-| Hugging Face Transformers | [Transformers](https://huggingface.co/transformers/) | 提供丰富的预训练模型与工具，便于NLP任务开发。     | ⭐⭐⭐⭐ |
-| OpenCV                    | [OpenCV](https://opencv.org/)                        | 计算机视觉库，提供丰富的图像处理功能。          | ⭐⭐⭐  |
+### 🤖 想要使用大模型？
 
-更多请到【[Tools](./tools/README.md)】栏目查看
+| 类型 | 推荐 |
+|------|------|
+| 🔥 最强开源 | [DeepSeek-V3](https://chat.deepseek.com/) · [Qwen](https://tongyi.aliyun.com/) |
+| 🌐 通用对话 | [ChatGPT](https://chat.openai.com/) · [Claude](https://claude.ai/) |
+| 🇨🇳 中文优化 | [文心一言](https://yiyan.baidu.com/) · [智谱清言](https://chatglm.cn/) |
 
-### 📜论文Papers
+### 💻 想要本地部署？
 
-| 资料名称                                                                                  | 链接                                                                             | 说明                             | 推荐星级 |
-|:------------------------------------------------------------------------------------- |:------------------------------------------------------------------------------ |:------------------------------ |:----:|
-| 2024年值得注意的人工智能研究论文（一）                                                                 | [Link](https://magazine.sebastianraschka.com/p/ai-research-papers-2024-part-1) | 2024年值得注意的人工智能研究论文（一）          | ⭐⭐⭐  |
-| Attention Is All You Need                                                             | [Link](https://arxiv.org/abs/1706.03762)                                       | 提出Transformer模型，是现代大语言模型的基础。   | ⭐⭐⭐  |
-| BERT: Pre-training of Deep Bidirectional Transformers                                 | [Link](https://arxiv.org/abs/1810.04805)                                       | 提出BERT模型，开启了预训练语言模型的新篇章。       | ⭐⭐⭐  |
-| GPT-3: Language Models are Few-Shot Learners                                          | [Link](https://arxiv.org/abs/2005.14165)                                       | 描述GPT-3模型的架构与能力，展示其在多任务中的表现。   | ⭐⭐⭐  |
-| Vision Transformer (ViT)                                                              | [Link](https://arxiv.org/abs/2010.11929)                                       | 将Transformer架构应用于计算机视觉任务。      | ⭐⭐   |
-| YOLOv4: Optimal Speed and Accuracy                                                    | [Link](https://arxiv.org/abs/2004.10934)                                       | 提出YOLOv4模型，提升了目标检测的速度与准确性。     | ⭐⭐   |
-| Reinforcement Learning with Unsupervised Auxiliary Tasks                              | [Link](https://arxiv.org/abs/1611.05397)                                       | 探讨在强化学习中引入辅助任务以提升性能。           | ⭐⭐   |
-| Self-Attention Generative Adversarial Networks (SAGAN)                                | [Link](https://arxiv.org/abs/1805.08318)                                       | 在GAN中引入自注意力机制，提升生成效果。          | ⭐⭐   |
-| CLIP: Learning Transferable Visual Models                                             | [Link](https://arxiv.org/abs/2103.00020)                                       | 结合图像与文本的对比学习模型，提升多模态理解能力。      | ⭐⭐⭐  |
-| AlphaFold: Using AI for Scientific Discovery                                          | [Link](https://www.nature.com/articles/s41586-021-03819-2)                     | DeepMind开发的蛋白质结构预测模型，突破性成果。    | ⭐⭐⭐  |
-| Sparse Transformer                                                                    | [Link](https://arxiv.org/abs/1904.10509)                                       | 提出稀疏注意力机制，提升Transformer的效率。    | ⭐⭐⭐  |
-| T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer | [Link](https://arxiv.org/abs/1910.10683)                                       | 提出T5模型，将所有NLP任务统一为文本到文本的框架。    | ⭐⭐⭐  |
-| Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context               | [Link](https://arxiv.org/abs/1901.02860)                                       | 提出Transformer-XL，支持更长上下文的语言模型。 | ⭐⭐⭐  |
+```bash
+# 使用 LLaMA-Factory 微调模型
+git clone https://github.com/hiyouga/LLaMA-Factory
+cd LLaMA-Factory
+pip install -r requirements.txt
 
-更多请到【[Paper](./papers/README.md)】栏目查看
+# 使用 vLLM 部署推理服务
+pip install vllm
+vllm serve Qwen/Qwen2-7B-Instruct
+```
 
-### 📖博客&书籍推荐Blog&Books
+### 📚 想要系统学习？
 
-| 教程                                        | Link                                                                 | 说明                                   | 推荐星级 |
-| ----------------------------------------- | -------------------------------------------------------------------- | ------------------------------------ | ---- |
-| 普通人如何使用 AI？                               | [Link](https://blog.csdn.net/z551646/article/details/143848325)      | 介绍了 AI 的基本概念和功能，以及普通人如何在日常生活中使用 AI。  | ⭐⭐⭐  |
-| AI 赋能，手把手教你第一次用 AI（保姆级教程）                 | [Link](https://zhuanlan.zhihu.com/p/684988103)                       | 提供了详细的 AI 使用教程，包括从零开始的指导。            | ⭐⭐⭐  |
-| 高效使用 AI 的 21 种技巧攻略（全是干货建议收藏！）             | [Link](https://zhuanlan.zhihu.com/p/14780214495)                     | 分享了 21 种高效使用 AI 的技巧，内容实用。            | ⭐⭐⭐  |
-| DeepSeek R1 本地安装部署（保姆级教程）                 | [Link](https://blog.csdn.net/zhishi0000/article/details/145450612)   | 详细介绍了 DeepSeek R1 的本地部署方法，包括所需工具和步骤。 | ⭐⭐⭐  |
-| DeepSeek 本地化部署（保姆喂饭级教程）                   | [Link](https://zhuanlan.zhihu.com/p/21030210489)                     | 提供了 DeepSeek 的本地化部署教程，适合新手操作。        | ⭐⭐⭐  |
-| 零基础 AI 入门指南                               | [Link](https://www.liaoxuefeng.com/article/1543329456062498)         | 针对零基础用户的 AI 入门指南，介绍了 AI 的工作原理和实践案例。  | ⭐⭐⭐  |
-| 十分钟用 DeepSeek v3 快速搭建企业级本地私有知识库（保姆级教程）    | [Link](https://blog.csdn.net/python12345_/article/details/145450272) | 教你如何使用 DeepSeek v3 快速搭建本地私有知识库。      | ⭐⭐⭐  |
-| 新手如何入门 AI 教程                              | [Link](https://zhuanlan.zhihu.com/p/23833215517)                     | 为新手提供的 AI 入门教程，介绍了可视化 AI 工具的使用。      | ⭐⭐⭐  |
-| 详细教程｜DeepSeek 本地部署教程+可视化页面，简单易懂，新手也能轻松完成！ | [Link](https://zhuanlan.zhihu.com/p/21629182611)                     | 提供了 DeepSeek 本地部署的详细教程，并附有可视化页面。     | ⭐⭐⭐  |
-| AI 教程入门：从零开始掌握人工智能基础                      | [Link](https://www.imooc.com/article/356460)                         | 从零开始的 AI 教程，涵盖人工智能的基础知识和应用。          | ⭐⭐⭐  |
-| 如何把 DeepSeek 部署在你的电脑上（保姆级）                | [Link](https://zhuanlan.zhihu.com/p/21133856147)                     | 教你如何将 DeepSeek 部署在个人电脑上的详细教程。        | ⭐⭐⭐  |
-| 大模型核心概念科普：Token、上下文长度、最大输出，一次讲透           | [Link](https://mp.weixin.qq.com/s/SXT2wuM0sox34PRrqWWAzw)            | 大模型核心概念科普。                           | ⭐⭐⭐  |
+| 水平 | 推荐资源 |
+|------|----------|
+| 🟢 初学者 | [微软 AI for Beginners](./tutorial/README.md) · [零基础 AI 入门](./blogs/README.md) |
+| 🟡 进阶 | [LLM Cookbook](./tutorial/README.md) · [CS224n](./tutorial/README.md) |
+| 🔴 深入 | [DeepSeek 论文](./paper/README.md) · [Transformer 家族](./paper/README.md) |
 
-更多请到【[Blog](./blogs/README.md)】栏目查看
+---
 
-## 😶‍🌫️联系作者
+## 🤖 开源大模型
 
-E-mail：yanmingxin.boy@gmail.com
+| 模型 | 链接 | 简介 | 推荐 |
+|:-----|:-----|:-----|:----:|
+| **DeepSeek-V3** | [GitHub](https://github.com/deepseek-ai/DeepSeek-V3) | 深度求索开源最强对话模型，长文本理解与代码生成能力强 | ⭐⭐⭐⭐⭐ |
+| **DeepSeek-R1** | [GitHub](https://github.com/deepseek-ai/DeepSeek-R1) | 通过强化学习激励推理能力，数学和逻辑能力出色 | ⭐⭐⭐⭐⭐ |
+| **Qwen2.5** | [GitHub](https://github.com/QwenLM/Qwen) | 阿里开源通义千问，中文优化出色的多系列模型 | ⭐⭐⭐⭐⭐ |
+| **LLaMA 3** | [GitHub](https://github.com/facebookresearch/llama) | Meta 开源，羊驼家族最新力作 | ⭐⭐⭐⭐ |
+| **DeepSeek-MoE** | [GitHub](https://github.com/deepseek-ai/DeepSeek-MoE) | 混合专家架构，推理成本低 | ⭐⭐⭐⭐ |
+| **Vicuna** | [GitHub](https://github.com/lm-sys/FastChat) | 基于 LLaMA 的对话优化模型 | ⭐⭐⭐⭐ |
+| **ChatGLM** | [GitHub](https://github.com/THUDM/ChatGLM-6B) | 清华开源中英双语对话模型 | ⭐⭐⭐⭐ |
+| **Mistral** | [GitHub](https://github.com/mistralai/mistral-src) | 欧洲最强开源模型 | ⭐⭐⭐⭐ |
 
-WeChat: 扯编程的淡
+> 💡 更多模型对比和技术细节请查看 [AI Coding IDE 专题](./docs/ai-coding-ide.md)
 
-<img src="assets/wx.png" title="" alt="图片描述" width="246">
+---
+
+## 🛠️ 开发工具
+
+### 深度学习框架
+
+| 工具 | 链接 | 简介 | 推荐 |
+|:-----|:-----|:-----|:----:|
+| **PyTorch** | [官网](https://pytorch.org/) | Facebook 开发，灵活性高，适合研究 | ⭐⭐⭐⭐⭐ |
+| **TensorFlow** | [官网](https://www.tensorflow.org/) | Google 开发，生态完善 | ⭐⭐⭐⭐ |
+| **JAX** | [官网](https://jax.readthedocs.io/) | Google 高性能 ML 框架 | ⭐⭐⭐⭐ |
+
+### 模型与推理
+
+| 工具 | 链接 | 简介 | 推荐 |
+|:-----|:-----|:-----|:----:|
+| **Hugging Face Transformers** | [GitHub](https://github.com/huggingface/transformers) | 提供丰富预训练模型 | ⭐⭐⭐⭐⭐ |
+| **vLLM** | [GitHub](https://github.com/vllm-project/vllm) | 高性能 LLM 推理框架 | ⭐⭐⭐⭐⭐ |
+| **LLaMA-Factory** | [GitHub](https://github.com/hiyouga/LLaMA-Factory) | 一站式模型微调工具 | ⭐⭐⭐⭐⭐ |
+| **DeepSpeed** | [GitHub](https://github.com/microsoft/DeepSpeed) | 微软分布式训练加速 | ⭐⭐⭐⭐ |
+| **Ollama** | [官网](https://ollama.com/) | 本地大模型运行工具 | ⭐⭐⭐⭐⭐ |
+| **LangChain** | [GitHub](https://github.com/langchain-ai/langchain) | LLM 应用开发框架 | ⭐⭐⭐⭐ |
+
+### 计算机视觉
+
+| 工具 | 链接 | 简介 | 推荐 |
+|:-----|:-----|:-----|:----:|
+| **OpenCV** | [官网](https://opencv.org/) | 计算机视觉基础库 | ⭐⭐⭐⭐ |
+| **Pillow** | [官网](https://pillow.readthedocs.io/) | Python 图像处理 | ⭐⭐⭐⭐ |
+
+---
+
+## 📚 学习教程
+
+| 教程 | 链接 | 简介 | 推荐 |
+|:-----|:-----|:-----|:----:|
+| **微软 AI for Beginners** | [GitHub](https://github.com/microsoft/AI-For-Beginners) | 面向初学者的系统课程 | ⭐⭐⭐⭐ |
+| **LLM Cookbook** | [GitHub](https://github.com/datawhalechina/llm-cookbook) | DataWhale 大模型教程 | ⭐⭐⭐⭐⭐ |
+| **Hugging Face 教程** | [官网](https://huggingface.co/learn) | NLP 模型使用与训练 | ⭐⭐⭐⭐ |
+| **Stanford CS224n** | [课程](http://web.stanford.edu/class/cs224n/) | 斯坦福 NLP 课程 | ⭐⭐⭐⭐⭐ |
+| **PyTorch 官方教程** | [官网](https://pytorch.org/tutorials/) | 深度学习入门必读 | ⭐⭐⭐⭐ |
+
+更多教程资源请查看 [Tutorial](./tutorial/README.md) 专辑。
+
+---
+
+## 📄 核心论文
+
+### 奠基之作
+
+| 论文 | 链接 | 简介 | 年份 |
+|:-----|:-----|:-----|:----:|
+| **Attention Is All You Need** | [arxiv](https://arxiv.org/abs/1706.03762) | Transformer 架构奠基论文 | 2017 |
+| **BERT** | [arxiv](https://arxiv.org/abs/1810.04805) | 预训练语言模型里程碑 | 2018 |
+| **GPT** | [arxiv](https://arxiv.org/abs/1801.04586) | 生成式预训练先驱 | 2018 |
+| **GPT-3** | [arxiv](https://arxiv.org/abs/2005.14165) | 提示学习的里程碑 | 2020 |
+
+### 2024-2025 最新进展
+
+| 论文 | 链接 | 简介 | 年份 |
+|:-----|:-----|:-----|:----:|
+| **DeepSeek-V3** | [arxiv](https://arxiv.org/abs/2412.19437) | 超强开源 MoE 模型 | 2024 |
+| **DeepSeek-R1** | [arxiv](https://arxiv.org/abs/2501.12948) | 纯强化学习推理模型 | 2025 |
+| **Qwen2.5** | [arxiv](https://arxiv.org/abs/2412.15115) | 阿里新一代开源模型 | 2024 |
+| **LLaMA 3** | [arxiv](https://arxiv.org/abs/2407.21783) | Meta 开源 Llama 最新版 | 2024 |
+
+更多论文请查看 [Papers](./paper/README.md) 专辑。
+
+---
+
+## 💡 应用产品
+
+### 通用对话
+
+| 产品 | 链接 | 特色 | 推荐 |
+|:-----|:-----|:-----|:----:|
+| **DeepSeek** | [官网](https://chat.deepseek.com/) | 长文本理解、代码生成强 | ⭐⭐⭐⭐⭐ |
+| **ChatGPT** | [官网](https://chat.openai.com/) | OpenAI 通用对话 | ⭐⭐⭐⭐⭐ |
+| **Claude** | [官网](https://claude.ai/) | Anthropic 出品，更安全 | ⭐⭐⭐⭐⭐ |
+| **文心一言** | [官网](https://yiyan.baidu.com/) | 百度多模态大模型 | ⭐⭐⭐⭐ |
+| **通义千问** | [官网](https://tongyi.aliyun.com/) | 阿里云行业大模型 | ⭐⭐⭐⭐ |
+| **智谱清言** | [官网](https://chatglm.cn/) | ChatGLM 商业版 | ⭐⭐⭐⭐ |
+
+### AI 编程
+
+| 产品 | 链接 | 特色 | 推荐 |
+|:-----|:-----|:-----|:----:|
+| **Cursor** | [官网](https://cursor.sh/) | AI 增强版 VS Code | ⭐⭐⭐⭐⭐ |
+| **Windsurf** | [官网](https://codeium.com/windsurf) | AI 编程新秀 | ⭐⭐⭐⭐⭐ |
+| **GitHub Copilot** | [官网](https://github.com/features/copilot) | GitHub 官方 AI 编程 | ⭐⭐⭐⭐ |
+| **通义灵码** | [官网](https://tongyi.aliyun.com/lingma) | 阿里 AI 编程助手 | ⭐⭐⭐⭐ |
+
+### AI 图像
+
+| 产品 | 链接 | 特色 | 推荐 |
+|:-----|:-----|:-----|:----:|
+| **Midjourney** | [官网](https://www.midjourney.com/) | 艺术级 AI 绘画 | ⭐⭐⭐⭐⭐ |
+| **Stable Diffusion** | [官网](https://stability.ai/) | 开源图像生成 | ⭐⭐⭐⭐⭐ |
+| **DALL-E** | [官网](https://openai.com/dall-e-3/) | OpenAI 图像生成 | ⭐⭐⭐⭐ |
+| **通义万相** | [官网](https://wanxiang.aliyun.com/) | 阿里 AI 绘画 | ⭐⭐⭐⭐ |
+
+更多产品请查看 [Product](./product/README.md) 专辑。
+
+---
+
+## 📖 博客资源
+
+| 文章 | 链接 | 简介 | 推荐 |
+|:-----|:-----|:-----|:----:|
+| 普通人如何使用 AI？ | [CSDN](https://blog.csdn.net/z551646/article/details/143848325) | AI 基本概念和日常使用 | ⭐⭐⭐ |
+| AI 赋能第一次使用 AI | [知乎](https://zhuanlan.zhihu.com/p/684988103) | 保姆级 AI 使用教程 | ⭐⭐⭐ |
+| 高效使用 AI 的 21 种技巧 | [知乎](https://zhuanlan.zhihu.com/p/14780214495) | AI 提示词技巧汇总 | ⭐⭐⭐ |
+| DeepSeek R1 本地部署 | [CSDN](https://blog.csdn.net/zhishi0000/article/details/145450612) | 详细本地部署教程 | ⭐⭐⭐⭐ |
+| 零基础 AI 入门指南 | [廖雪峰](https://www.liaoxuefeng.com/article/1543329456062498) | 适合新手的入门指南 | ⭐⭐⭐ |
+| DeepSeek v3 搭建知识库 | [CSDN](https://blog.csdn.net/python12345_/article/details/145450272) | 企业级私有知识库 | ⭐⭐⭐ |
+
+更多博客请查看 [Blogs](./blogs/README.md) 专辑。
+
+---
+
+## 🗂️ 项目仓库
+
+| 项目 | 链接 | 简介 | 推荐 |
+|:-----|:-----|:-----|:----:|
+| **HuggingFace Transformers** | [GitHub](https://github.com/huggingface/transformers) | 主流模型 PyTorch 实现 | ⭐⭐⭐⭐⭐ |
+| **LangChain** | [GitHub](https://github.com/langchain-ai/langchain) | LLM 应用开发框架 | ⭐⭐⭐⭐⭐ |
+| **LLaMA-Factory** | [GitHub](https://github.com/hiyouga/LLaMA-Factory) | 一站式微调工具 | ⭐⭐⭐⭐⭐ |
+| **vLLM** | [GitHub](https://github.com/vllm-project/vllm) | 高性能推理框架 | ⭐⭐⭐⭐⭐ |
+| **DeepSpeed** | [GitHub](https://github.com/microsoft/DeepSpeed) | 分布式训练加速 | ⭐⭐⭐⭐ |
+| **Prompt Engineering Guide** | [GitHub](https://github.com/dair-ai/Prompt-Engineering-Guide) | 提示工程指南 | ⭐⭐⭐⭐ |
+| **OpenAI Cookbook** | [GitHub](https://github.com/openai/openai-cookbook) | OpenAI 官方示例 | ⭐⭐⭐⭐ |
+| **Chinese-LLaMA-Alpaca** | [GitHub](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | 中文 LLaMA 增强 | ⭐⭐⭐⭐ |
+
+更多仓库请查看 [Repository](./repository/README.md) 专辑。
+
+---
+
+## 🔧 专题深入
+
+| 专题 | 描述 | 路径 |
+|:-----|:-----|:-----|
+| 🤖 **AI 学习路线** | 系统化的 AI 学习路径规划 | [查看](./docs/ai-learning-roadmap.md) |
+| 💻 **AI Coding IDE** | 主流 AI 编程 IDE 对比 | [查看](./docs/ai-coding-ide.md) |
+| 🖥️ **GPU 知识** | GPU 原理与环境配置指南 | [查看](./docs/gpu-knowledge.md) |
+| 🛠️ **AI 技术栈** | 完整的技术栈文档 | [查看](./docs/ai-tech-stack.md) |
+| 🎨 **IDE AI 插件** | 主流 IDE AI 插件收集 | [查看](./docs/ide-ai-plugins.md) |
+| 🐚 **OpenClaw** | OpenClaw 使用指南 | [查看](./docs/openclaw.md) |
+| 🎯 **AI 工具补充** | UI 生成等工具 | [查看](./docs/ai-tools-supplement.md) |
+
+---
+
+## 📎 联系作者
+
+| 联系方式 | 详情 |
+|:---------|:-----|
+| 📧 E-mail | yanmingxin.boy@gmail.com |
+| 💬 WeChat | 扯编程的淡 |
+
+<img src="assets/wx.png" title="" alt="公众号二维码" width="246">
+
+---
+
+> ⭐ 如果这个项目对你有帮助，请 star 支持一下！
