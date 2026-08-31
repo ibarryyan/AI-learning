@@ -90,24 +90,22 @@
 
 | 工具 | 描述 | 链接 | 推荐度 |
 |:-----|:-----|:-----|:------:|
-| **Runway** | AI 视频生成 | https://runway.ml/ | ⭐⭐⭐⭐⭐ |
-| **Pika** | AI 视频生成 | https://pika.art/ | ⭐⭐⭐⭐⭐ |
-| **Sora** | OpenAI 视频 | https://openai.com/sora | ⭐⭐⭐⭐⭐ |
-| **Luma Dream Machine** | AI 视频 | https://lumalabs.ai/dream-machine | ⭐⭐⭐⭐⭐ |
-| **可灵 AI** | 快手 AI 视频 | https://klingai.com/ | ⭐⭐⭐⭐ |
+| **Sora 2** | OpenAI 视频，物理真实感强 | https://openai.com/index/sora-2/ | ⭐⭐⭐⭐⭐ |
+| **Veo 3** | Google 视频，电影级运镜 | https://deepmind.google/technologies/veo/ | ⭐⭐⭐⭐⭐ |
+| **Runway Gen-4** | AI 视频编辑与生成 | https://runway.ml/ | ⭐⭐⭐⭐⭐ |
+| **Kling 2.1** | 快手 AI 视频，时长 2 分钟 | https://klingai.com/ | ⭐⭐⭐⭐ |
+| **Pika** | AI 视频生成 | https://pika.art/ | ⭐⭐⭐⭐ |
+| **Luma Dream Machine** | AI 视频 | https://lumalabs.ai/dream-machine | ⭐⭐⭐⭐ |
 | **海螺 AI** | 字节视频 | https://www.hailuoai.com/ | ⭐⭐⭐⭐ |
-| **腾讯智影** | 腾讯视频 AI | https://zenvideo.qq.com/ | ⭐⭐⭐⭐ |
 
 ### 3.2 音频处理
 
 | 工具 | 描述 | 链接 | 推荐度 |
 |:-----|:-----|:-----|:------:|
-| **ElevenLabs** | AI 语音合成 | https://elevenlabs.io/ | ⭐⭐⭐⭐⭐ |
-| **Midjourney V6** | AI 语音 | https://www.midjourney.com/ | ⭐⭐⭐⭐⭐ |
-| **ElevenLabs** | AI 配音 | https://elevenlabs.io/ | ⭐⭐⭐⭐⭐ |
-| **剪映** | AI 剪辑 | https://www.capcut.cn/ | ⭐⭐⭐⭐⭐ |
+| **ElevenLabs** | AI 语音合成，多语言自然 | https://elevenlabs.io/ | ⭐⭐⭐⭐⭐ |
+| **剪映** | AI 剪辑配音 | https://www.capcut.cn/ | ⭐⭐⭐⭐⭐ |
 | **讯飞智作** | 讯飞 AI 语音 | https://zvoo.xfyun.cn/ | ⭐⭐⭐⭐ |
-| **Azure TTS** | 微软语音 | https://azure.microsoft.com/services/cognitive-services/text-to-speech/ | ⭐⭐⭐⭐ |
+| **Azure TTS** | 微软语音合成 | https://azure.microsoft.com/services/cognitive-services/text-to-speech/ | ⭐⭐⭐⭐ |
 
 ### 3.3 数字人
 
@@ -232,12 +230,13 @@ AI 工具生态:
 ├── 🎨 设计生成
 │   ├── UI/前端: v0, bolt.new, Galileo
 │   ├── 图像: Midjourney, Stable Diffusion
-│   └── 视频: Runway, Pika, Sora
+│   └── 视频: Sora 2, Veo 3, Runway Gen-4
 │
 ├── 💻 开发辅助
-│   ├── 编程: Cursor, Windsurf, Copilot
-│   ├── 代码审查: CodeRabbit, CR
-│   └── API: RapidAPI, public APIs
+│   ├── 终端 Agent: Claude Code, Codex CLI
+│   ├── AI IDE: Cursor, Windsurf, Trae
+│   ├── 插件: Cline, Copilot, Continue
+│   └── 代码审查: CodeRabbit, CR
 │
 ├── 📊 办公效率
 │   ├── 文档: Notion AI, WPS AI
@@ -250,7 +249,7 @@ AI 工具生态:
 │
 ├── 🎬 音视频
 │   ├── 语音: ElevenLabs, Azure
-│   ├── 视频: Runway, 可灵
+│   ├── 视频: Sora 2, Veo 3, 可灵
 │   └── 数字人: HeyGen, D-ID
 │
 └── 🛠️ 垂直工具

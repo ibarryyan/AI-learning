@@ -19,14 +19,38 @@
 
 | 插件 | 安装量 | 功能 | 推荐度 |
 |:-----|:------:|:-----|:------:|
+| **Cline** | 5M+ | 开源 VS Code Agent，多模型 | ⭐⭐⭐⭐⭐ |
 | **Continue** | 800k+ | 开源 AI 编程助手 | ⭐⭐⭐⭐⭐ |
+| **GitHub Copilot** | 5M+ | GitHub 官方 AI，GPT-5 | ⭐⭐⭐⭐ |
 | **Cursor** | 500k+ | AI 增强版 VS Code | ⭐⭐⭐⭐⭐ |
-| **CodeGPT** | 600k+ | ChatGPT 集成 | ⭐⭐⭐⭐ |
-| **GitHub Copilot** | 5M+ | GitHub 官方 AI | ⭐⭐⭐⭐ |
+| **CodeGPT** | 600k+ | 多模型集成 | ⭐⭐⭐⭐ |
 | **Tabnine** | 20M+ | AI 代码补全 | ⭐⭐⭐⭐ |
 | **Amazon Q Developer** | 1M+ | AWS 开发助手 | ⭐⭐⭐⭐ |
 
-### 1.2 Continue 插件详解
+### 1.2 Cline 插件详解
+
+**特点**: 开源 VS Code Agent，Apache 2.0，安装量超 500 万
+
+```json
+// settings.json 配置示例
+{
+  "cline.apiProvider": "anthropic",
+  "cline.model": "claude-opus-4-5",
+  "cline.maxTokens": 8192,
+  "cline.autoApprove": {
+    "enabled": true,
+    "patterns": ["*.py", "*.md"]
+  }
+}
+```
+
+**核心功能**:
+- 🤖 自主编码：文件编辑、终端操作、浏览器控制
+- 📝 结构化计划：任务拆解与逐步执行
+- 🔗 MCP 集成：调用外部工具与服务
+- 🎯 多模型：Claude 4、GPT-5、DeepSeek、本地模型
+
+### 1.3 Continue 插件详解
 
 **特点**: 开源免费，支持多模型切换
 
@@ -37,12 +61,12 @@
   "continue.useEmbeddedCompletions": true,
   "continue.models": [
     {
-      "model": "claude-3-5-sonnet-20241022",
+      "model": "claude-opus-4-5",
       "provider": "anthropic",
       "apiKey": "${env:ANTHROPIC_API_KEY}"
     },
     {
-      "model": "gpt-4",
+      "model": "gpt-5",
       "provider": "openai",
       "apiKey": "${env:OPENAI_API_KEY}"
     }
@@ -55,7 +79,7 @@
 - `Ctrl+I` / `Cmd+I`: 智能编辑
 - `Tab`: 接受补全
 
-### 1.3 CodeGPT 插件
+### 1.4 CodeGPT 插件
 
 **特点**: 界面友好，支持多种模型
 
@@ -63,12 +87,12 @@
 // settings.json 配置
 {
   "codegpt.selectedProvider": "OpenAI",
-  "codegpt.model": "gpt-4",
+  "codegpt.model": "gpt-5",
   "codegpt.apiKey": "${env:OPENAI_API_KEY}"
 }
 ```
 
-### 1.4 其他实用插件
+### 1.5 其他实用插件
 
 | 插件 | 功能 | 推荐度 |
 |:-----|:-----|:------:|
@@ -156,10 +180,12 @@ use({
 
 | 工具 | 功能 | GitHub |
 |:-----|:-----|:-------|
+| **Claude Code** | 终端 Agent，仓库级多文件改动 | [link](https://github.com/anthropics/claude-code) |
+| **Codex CLI** | OpenAI 终端 Agent，Apache 2.0 | [link](https://github.com/openai/codex) |
+| **aider** | 终端 AI 编程助手 | [link](https://github.com/Aider-AI/aider) |
 | **aichat** | 多模型 CLI 工具 | [link](https://github.com/sigoden/aichat) |
-| **GPT CLI** | OpenAI CLI | [link](https://github.com/0xacx/ChatGPT-Cli) |
-| **ShellGPT** | Linux Shell AI | [link](github.com/TheR1D/shell_gpt) |
-| **llama-cli** | 本地模型 CLI | [link](https://github.com/ggerganov/llama.cpp) |
+| **ShellGPT** | Linux Shell AI | [link](https://github.com/TheR1D/shell_gpt) |
+| **llama-cli** | 本地模型 CLI | [link](https://github.com/ggml-org/llama.cpp) |
 
 ### 4.2 aichat 使用
 
@@ -190,11 +216,12 @@ eval "$(shellgpt --init)"
 
 | 插件 | 免费版 | 付费版 | 支持模型 | 离线支持 |
 |:-----|:------|:------|:--------|:-------:|
-| Continue | ✅ 无限 | - | 多模型 | ✅ |
-| Cursor | 500次/槽 | $20/月 | GPT/Claude | ❌ |
-| Copilot | 2000次/月 | $10/月 | GPT-4 | ❌ |
-| Tabnine | 有限 | $12/月 | 自研 | ✅ |
-| JetBrains AI | 5000次/月 | $30/月 | 自研 | ❌ |
+| **Cline** | 按 API 计费 | 无平台费 | Claude/GPT-5/DeepSeek/本地 | ✅ |
+| **Continue** | ✅ 无限 | - | 多模型 | ✅ |
+| **Cursor** | 500次/槽 | $20/月 | GPT-5/Claude 4.5 | ❌ |
+| **Copilot** | 2000次/月 | $10/月 | GPT-5 | ❌ |
+| **Tabnine** | 有限 | $12/月 | 自研 | ✅ |
+| **JetBrains AI** | 5000次/月 | $30/月 | 自研 | ❌ |
 
 ---
 
@@ -202,11 +229,12 @@ eval "$(shellgpt --init)"
 
 | 场景 | 推荐插件 |
 |:-----|:---------|
+| **VS Code Agent** | Cline |
 | **免费首选** | Continue |
 | **专业开发** | Cursor / Windsurf |
 | **企业用户** | Copilot / JetBrains AI |
-| **本地部署** | Continue + Ollama |
-| **多工具切换** | VS Code + 多插件组合 |
+| **本地部署** | Cline/Continue + Ollama |
+| **终端 Agent** | Claude Code / Codex CLI |
 
 ---
 
@@ -222,17 +250,22 @@ eval "$(shellgpt --init)"
   "continue.temperature": 0.7,
   "continue.models": [
     {
-      "model": "claude-sonnet-4-20250514",
+      "model": "claude-opus-4-5",
       "provider": "anthropic",
       "apiKey": "${env:ANTHROPIC_API_KEY}"
     },
     {
-      "model": "gpt-4-turbo",
+      "model": "gpt-5",
       "provider": "openai",
       "apiKey": "${env:OPENAI_API_KEY}"
     },
     {
-      "model": "llama3",
+      "model": "deepseek-v3",
+      "provider": "deepseek",
+      "apiKey": "${env:DEEPSEEK_API_KEY}"
+    },
+    {
+      "model": "llama4",
       "provider": "ollama"
     }
   ],
@@ -269,4 +302,4 @@ eval "$(shellgpt --init)"
 
 ---
 
-> 💡 **建议**: VS Code 用户推荐使用 Continue 插件，开源免费且功能强大；如需更专业的体验，可选择 Cursor 或 Windsurf。
+> 💡 **建议**: 2026 年 VS Code 用户首选 Cline，开源 Agent 能力强且支持多模型；如需更专业的体验，可选择 Cursor 或 Windsurf；终端重度用户推荐 Claude Code 或 Codex CLI。

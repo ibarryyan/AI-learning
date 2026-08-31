@@ -1,103 +1,115 @@
-# 🛠️ 开发工具专辑 | Tools
+# 🛠️ 工具专辑 | Tools
 
-> AI 开发必备工具集。
+> AI 开发与使用相关工具，内容更新至 2026 年。
 
 ---
 
 ## 🗂️ 目录分类
 
-- [深度学习框架](#深度学习框架)
-- [模型与推理](#模型与推理)
-- [模型微调](#模型微调)
-- [计算机视觉](#计算机视觉)
-- [NLP 工具](#nlp-工具)
+- [模型部署](#模型部署)
 - [数据处理](#数据处理)
+- [训练监控](#训练监控)
+- [可视化工具](#可视化工具)
+- [Prompt 管理](#prompt-管理)
+- [API 网关](#api-网关)
 
 ---
 
-## 深度学习框架
+## 模型部署
 
-| 工具名称 | 链接 | 简介 | 推荐度 |
-|:---------|:-----|:-----|:------:|
-| **PyTorch** | [官网](https://pytorch.org/) | Facebook 开发，灵活性高，适合研究 | ⭐⭐⭐⭐⭐ |
-| **TensorFlow** | [官网](https://www.tensorflow.org/) | Google 开发，生态完善 | ⭐⭐⭐⭐ |
-| **JAX** | [官网](https://jax.readthedocs.io/) | Google 高性能 ML 框架 | ⭐⭐⭐⭐ |
-| **PaddlePaddle** | [官网](https://www.paddlepaddle.org.cn/) | 百度开源，中文支持好 | ⭐⭐⭐⭐ |
-| **MindSpore** | [官网](https://www.mindspore.cn/) | 华为开源，端云协同 | ⭐⭐⭐⭐ |
-
----
-
-## 模型与推理
-
-| 工具名称 | 链接 | 简介 | 推荐度 |
-|:---------|:-----|:-----|:------:|
-| **Hugging Face Transformers** | [GitHub](https://github.com/huggingface/transformers) | 提供丰富预训练模型 | ⭐⭐⭐⭐⭐ |
-| **vLLM** | [GitHub](https://github.com/vllm-project/vllm) | 高性能 LLM 推理框架 | ⭐⭐⭐⭐⭐ |
-| **Ollama** | [官网](https://ollama.com/) | 本地大模型运行工具 | ⭐⭐⭐⭐⭐ |
-| **llama.cpp** | [GitHub](https://github.com/ggerganov/llama.cpp) | 高性能本地推理 | ⭐⭐⭐⭐⭐ |
-| **Text Generation Inference** | [GitHub](https://github.com/huggingface/text-generation-inference) | Hugging Face 官方推理 | ⭐⭐⭐⭐⭐ |
-| **LMDeploy** | [GitHub](https://github.com/InternLM/lmdeploy) | 量化推理，TurboMind | ⭐⭐⭐⭐⭐ |
-| **FastChat** | [GitHub](https://github.com/lm-sys/FastChat) | 对话模型服务 | ⭐⭐⭐⭐ |
-
----
-
-## 模型微调
-
-| 工具名称 | 链接 | 简介 | 推荐度 |
-|:---------|:-----|:-----|:------:|
-| **LLaMA-Factory** | [GitHub](https://github.com/hiyouga/LLaMA-Factory) | 一站式微调工具 | ⭐⭐⭐⭐⭐ |
-| **DeepSpeed** | [GitHub](https://github.com/microsoft/DeepSpeed) | 微软分布式训练加速 | ⭐⭐⭐⭐⭐ |
-| **Megatron-LM** | [GitHub](https://github.com/NVIDIA/Megatron-LM) | 大规模训练框架 | ⭐⭐⭐⭐ |
-| **PEFT** | [GitHub](https://github.com/huggingface/peft) | 参数高效微调 | ⭐⭐⭐⭐⭐ |
-| **Unsloth** | [GitHub](https://github.com/unslothai/unsloth) | 高速微调框架 | ⭐⭐⭐⭐⭐ |
-| **ColossalAI** | [GitHub](https://github.com/hpcaitech/ColossalAI) | 大模型训练平台 | ⭐⭐⭐⭐ |
-
----
-
-## 计算机视觉
-
-| 工具名称 | 链接 | 简介 | 推荐度 |
-|:---------|:-----|:-----|:------:|
-| **OpenCV** | [官网](https://opencv.org/) | 计算机视觉基础库 | ⭐⭐⭐⭐ |
-| **Pillow** | [官网](https://pillow.readthedocs.io/) | Python 图像处理 | ⭐⭐⭐⭐ |
-| **Albumentations** | [官网](https://albumentations.ai/) | 图像数据增强 | ⭐⭐⭐⭐⭐ |
-| **MMDetection** | [GitHub](https://github.com/open-mmlab/mmdetection) | 目标检测工具箱 | ⭐⭐⭐⭐ |
-| **Detectron2** | [GitHub](https://github.com/facebookresearch/detectron2) | Facebook 目标检测 | ⭐⭐⭐⭐ |
-| **PaddleCV** | [GitHub](https://github.com/PaddlePaddle/PaddleCV) | 百度视觉工具 | ⭐⭐⭐⭐ |
-
----
-
-## NLP 工具
-
-| 工具名称 | 链接 | 简介 | 推荐度 |
-|:---------|:-----|:-----|:------:|
-| **Hugging Face Tokenizers** | [GitHub](https://github.com/huggingface/tokenizers) | 高效分词器 | ⭐⭐⭐⭐⭐ |
-| **jieba** | [GitHub](https://github.com/fxsjy/jieba) | 中文分词 | ⭐⭐⭐⭐⭐ |
-| **thulac** | [GitHub](https://github.com/thunlp/THULAC) | 清华大学中文分词 | ⭐⭐⭐⭐ |
-| **LTP** | [GitHub](https://github.com/HIT-SCIR/ltp) | 哈工大语言技术平台 | ⭐⭐⭐⭐ |
-| **spaCy** | [官网](https://spacy.io/) | 工业级 NLP | ⭐⭐⭐⭐ |
-| **NLTK** | [官网](https://www.nltk.org/) | 自然语言工具包 | ⭐⭐⭐⭐ |
+| 工具 | 链接 | 简介 |
+|:-----|:-----|:-----|
+| **Ollama** | [官网](https://ollama.com/) | 本地模型一键管理，最易上手 |
+| **LM Studio** | [官网](https://lmstudio.ai/) | 桌面端本地模型管理 |
+| **vLLM** | [GitHub](https://github.com/vllm-project/vllm) | 高吞吐推理服务 |
+| **SGLang** | [GitHub](https://github.com/sgl-project/sglang) | 结构化生成框架 |
+| **llama.cpp** | [GitHub](https://github.com/ggml-org/llama.cpp) | C++ 推理，CPU/GPU 通用 |
+| **LocalAI** | [GitHub](https://github.com/mudler/LocalAI) | OpenAI 兼容本地服务 |
 
 ---
 
 ## 数据处理
 
-| 工具名称 | 链接 | 简介 | 推荐度 |
-|:---------|:-----|:-----|:------:|
-| **NumPy** | [官网](https://numpy.org/) | 基础数值计算 | ⭐⭐⭐⭐⭐ |
-| **Pandas** | [官网](https://pandas.pydata.org/) | 数据分析处理 | ⭐⭐⭐⭐⭐ |
-| **Polars** | [官网](https://www.pola.rs/) | 高性能 DataFrame | ⭐⭐⭐⭐⭐ |
-| **Dask** | [官网](https://dask.org/) | 分布式计算 | ⭐⭐⭐⭐ |
-| **scikit-learn** | [官网](https://scikit-learn.org/) | 机器学习基础库 | ⭐⭐⭐⭐⭐ |
+| 工具 | 链接 | 简介 |
+|:-----|:-----|:-----|
+| **Label Studio** | [GitHub](https://github.com/HumanSignalAI/label-studio) | 多模态数据标注 |
+| **Docling** | [GitHub](https://github.com/DS4SD/docling) | 文档解析，IBM 出品 |
+| **Unstructured** | [GitHub](https://github.com/Unstructured-IO/unstructured) | 非结构化数据解析 |
+| **LlamaParse** | [官网](https://llamaindex.ai/llamaparse) | LlamaIndex 文档解析 |
+| **Snorkel** | [官网](https://snorkel.ai/) | 程序化数据标注 |
 
 ---
 
-## 🔗 相关链接
+## 训练监控
 
-- [AI 技术栈](../docs/ai-tech-stack.md)
-- [GPU 知识](../docs/gpu-knowledge.md)
-- [Tutorial](../tutorial/README.md)
+| 工具 | 链接 | 简介 |
+|:-----|:-----|:-----|
+| **Weights & Biases** | [官网](https://wandb.ai/) | 实验跟踪与可视化 |
+| **MLflow** | [官网](https://mlflow.org/) | 开源 ML 生命周期管理 |
+| **TensorBoard** | [官网](https://www.tensorflow.org/tensorboard) | TensorFlow 可视化 |
+| **ClearML** | [官网](https://clear.ml/) | 开源实验管理 |
 
 ---
 
-> 💡 **提示**: 推荐从 PyTorch + Transformers + vLLM 组合开始，这是目前最主流的 AI 开发技术栈。
+## 可视化工具
+
+| 工具 | 链接 | 简介 |
+|:-----|:-----|:-----|
+| **Netron** | [GitHub](https://github.com/lutzroeder/netron) | 模型结构可视化 |
+| **BertViz** | [GitHub](https://github.com/jessevig/bertviz) | 注意力可视化 |
+| **Transformers Interpret** | [GitHub](https://github.com/cdpierse/transformers-interpret) | 模型解释 |
+| **LangSmith** | [官网](https://smith.langchain.com/) | LangChain 追踪调试 |
+
+---
+
+## Prompt 管理
+
+| 工具 | 链接 | 简介 |
+|:-----|:-----|:-----|
+| **Promptfoo** | [GitHub](https://github.com/promptfoo/promptfoo) | Prompt 测试评估 |
+| **Promptflow** | [GitHub](https://github.com/microsoft/promptflow) | 微软 Prompt 工作流 |
+| **LangSmith** | [官网](https://smith.langchain.com/) | LangChain Prompt 管理 |
+| **Helicone** | [GitHub](https://github.com/Helicone/helicone) | LLM 可观测性 |
+
+---
+
+## API 网关
+
+| 工具 | 链接 | 简介 |
+|:-----|:-----|:-----|
+| **LiteLLM** | [GitHub](https://github.com/BerriAI/litellm) | 统一 LLM API 网关 |
+| **OpenRouter** | [官网](https://openrouter.ai/) | 多模型 API 聚合 |
+| **One API** | [GitHub](https://github.com/songquanpeng/one-api) | 开源 API 管理 |
+| **Portkey** | [官网](https://portkey.ai/) | AI 网关与可观测 |
+
+---
+
+## 📊 工具分类图
+
+```
+AI 工具生态:
+│
+├── 🚀 部署
+│   ├── 本地: Ollama, LM Studio, llama.cpp
+│   └── 服务: vLLM, SGLang, LocalAI
+│
+├── 📊 数据
+│   ├── 标注: Label Studio, Snorkel
+│   └── 解析: Docling, Unstructured, LlamaParse
+│
+├── 📈 监控
+│   └── W&B, MLflow, TensorBoard, ClearML
+│
+├── 👁️ 可视化
+│   └── Netron, BertViz, LangSmith
+│
+├── 📝 Prompt
+│   └── Promptfoo, Promptflow, LangSmith
+│
+└── 🌐 API
+    └── LiteLLM, OpenRouter, One API, Portkey
+```
+
+---
+
+> 💡 **提示**: 本地部署首选 Ollama；服务端高吞吐用 vLLM；文档解析用 Docling；实验跟踪用 W&B；多模型 API 统一用 LiteLLM 或 OpenRouter。

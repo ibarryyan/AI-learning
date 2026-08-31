@@ -291,11 +291,11 @@ models:
   default: qclaw/modelroute
   
   alternatives:
-    - name: gpt-4
+    - name: gpt-5
       provider: openai
-    - name: claude-3
+    - name: claude-opus-4-5
       provider: anthropic
-    - name: deepseek-chat
+    - name: deepseek-v3
       provider: deepseek
 ```
 

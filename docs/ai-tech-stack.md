@@ -70,25 +70,26 @@ Python AI 生态:
 
 | 模型 | 参数量 | 特点 | GitHub |
 |:-----|:------:|:-----|:-------|
-| **DeepSeek-V3** | 671B (37B active) | MoE, 最强开源 | [DeepSeek-AI](https://github.com/deepseek-ai/DeepSeek-V3) |
-| **DeepSeek-R1** | 671B | 推理模型, RL | [DeepSeek-AI](https://github.com/deepseek-ai/DeepSeek-R1) |
-| **Qwen2.5** | 0.5B-72B | 多尺寸, 中文优化 | [QwenLM](https://github.com/QwenLM/Qwen) |
-| **LLaMA 3** | 8B-70B | Meta 开源 | [Meta-Llama](https://github.com/meta-llama/llama3) |
-| **Mistral** | 7B-123B | 欧洲最强 | [mistralai](https://github.com/mistralai/mistral-src) |
-| **ChatGLM** | 6B-130B | 清华开源 | [THUDM](https://github.com/THUDM/ChatGLM-6B) |
-| **Yi** | 6B-34B | 零一万物 | [01.AI](https://github.com/01-ai/Yi) |
+| **DeepSeek-V3.2** | 671B (37B active) | MoE, 强化 Agent 与思考推理 | [DeepSeek-AI](https://github.com/deepseek-ai/DeepSeek-V3) |
+| **DeepSeek-R1** | 671B | 推理模型, RL 激励 | [DeepSeek-AI](https://github.com/deepseek-ai/DeepSeek-R1) |
+| **Qwen3-Max** | 1T (MoE) | 阿里万亿参数旗舰 | [QwenLM](https://github.com/QwenLM/Qwen3) |
+| **Kimi K2** | 1T (32B active) | 万亿 Agent 模型, MuonClip | [MoonshotAI](https://github.com/MoonshotAI/Kimi-K2) |
+| **Llama 4** | 17B 16E (Scout) | Meta MoE, 原生多模态 | [HF](https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Original) |
+| **GPT-OSS** | 120B (20B active) | OpenAI 开源权重, Apache 2.0 | [OpenAI](https://github.com/openai/gpt-oss) |
+| **GLM-4.6** | 355B (32B active) | 智谱开源, Agent 能力强 | [THUDM](https://github.com/zhipuai-ai/GLM-4) |
+| **Mistral** | 7B-123B | 欧洲开源 | [mistralai](https://github.com/mistralai/mistral-src) |
 
 #### 模型下载
 
 ```bash
 # Hugging Face CLI
-huggingface-cli download meta-llama/Meta-Llama-3-8B-Instruct
+huggingface-cli download deepseek-ai/DeepSeek-V3
 
 # 使用 modelscope (国内快)
-modelscope download --model LLM-Research/Meta-Lllama-3-8B-Instruct
+modelscope download --model deepseek-ai/DeepSeek-V3
 
-# 使用 openbuddy
-git clone https://modelscope.cn/models/OpenBuddy/openbuddy-llama3-8b-v21
+# 使用 Ollama 本地管理
+ollama pull deepseek-r1:671b
 ```
 
 ### 2.2 模型架构
@@ -96,8 +97,8 @@ git clone https://modelscope.cn/models/OpenBuddy/openbuddy-llama3-8b-v21
 ```
 大模型架构类型:
 ├── Decoder-Only (GPT 系列)
-│   ├── GPT, GPT-2, GPT-3, GPT-4
-│   ├── LLaMA, Qwen, Mistral
+│   ├── GPT-2, GPT-3, GPT-4, GPT-5
+│   ├── Llama, Qwen, Mistral
 │   └── 生成式, 指令跟随
 │
 ├── Encoder-Only (BERT 系列)
@@ -109,7 +110,8 @@ git clone https://modelscope.cn/models/OpenBuddy/openbuddy-llama3-8b-v21
 │   └── 序列到序列任务
 │
 └── Mixture-of-Experts (MoE)
-    ├── DeepSeek-MoE, Mixtral
+    ├── DeepSeek-V3/V3.2, Qwen3-Max, Kimi K2
+    ├── Llama 4, GPT-OSS, GLM-4.6
     └── 稀疏激活, 推理高效
 ```
 
@@ -183,11 +185,12 @@ LLM 应用模式:
 
 | 框架 | 特点 | GitHub |
 |:-----|:-----|:-------|
+| **LangGraph** | 状态图 Agent 编排, 最主流 | [link](https://github.com/langchain-ai/langgraph) |
 | **LangChain Agents** | 生态丰富 | [link](https://github.com/langchain-ai/langchain) |
+| **Claude Agent SDK** | Claude Code 内核, 终端 Agent | [link](https://github.com/anthropics/claude-code-sdk-python) |
 | **AutoGen** | Multi-Agent, 微软 | [link](https://github.com/microsoft/autogen) |
-| **CrewAI** | 多代理编排 | [link](https://github.com/joaomdmoura/crewAI) |
-| **AgentVerse** | 多代理协作 | [link](https://github.com/agents-ai/agentverse) |
-| **OpenAI Swarm** | 轻量级多代理 | [link](https://github.com/openai/swarm) |
+| **CrewAI** | 多代理编排 | [link](https://github.com/joaomdmoura/crewai) |
+| **MCP** | 模型上下文协议, 工具调用标准 | [link](https://github.com/modelcontextprotocol) |
 
 ---
 
@@ -197,12 +200,12 @@ LLM 应用模式:
 
 | 框架 | 特点 | 支持模型 |
 |:-----|:-----|:--------|
-| **vLLM** | 高吞吐量, PagedAttention | LLaMA, Qwen, ChatGLM |
+| **vLLM** | 高吞吐量, PagedAttention | DeepSeek, Qwen, Llama, GLM |
+| **SGLang** | 结构化生成, 高性能 | DeepSeek, Llama, Qwen |
 | **Text Generation Inference** | Hugging Face 官方 | Transformers 全模型 |
-| **llama.cpp** | 本地运行, 量化 | GGUF, GGML |
-| **Ollama** | 本地大模型运行 | 主流开源模型 |
-| **FastChat** | Vicuna 推理服务 | 对话模型 |
-| **LMDeploy** | 量化推理, TurboMind | LLaMA, Qwen |
+| **llama.cpp** | 本地运行, 量化, CPU/GPU 通用 | GGUF 格式 |
+| **Ollama** | 本地大模型一键管理 | 主流开源模型 |
+| **TensorRT-LLM** | NVIDIA 高性能推理 | 主流模型 |
 
 ### 5.2 量化技术
 
@@ -253,15 +256,17 @@ LLM 应用模式:
 | **BERT-Score** | 文本生成评估 |
 | **ROUGE/L BLEU** | 传统 NLP 评估 |
 
-### 6.4 2024-2025 新兴工具
+### 6.4 2025-2026 新兴工具
 
 | 工具 | 类别 | 说明 |
 |:-----|:-----|:-----|
+| **Claude Code** | 终端 Agent | 仓库级多文件改动 |
+| **Codex CLI** | 终端 Agent | OpenAI 开源, Apache 2.0 |
+| **Cline** | VS Code Agent | 开源, 多模型支持 |
+| **MCP** | 协议 | 模型上下文协议, 工具调用标准 |
+| **SGLang** | 推理 | 结构化生成框架 |
 | **uv** | 包管理 | 最快的 Python 包管理器 |
-| **Triton** | 编译优化 | GPU 内核优化 |
-| **Vary** | CV 大模型 | 视觉开源模型 |
-| **Qwen-VL** | 多模态 | 阿里视觉模型 |
-| **Janus** | 多模态 | 幻方多模态 |
+| **Unsloth** | 微调 | 快速微调, 显存占用低 |
 
 ---
 
@@ -275,10 +280,10 @@ LLM 应用模式:
 │  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐                   │
 │  │   应用层      │    │   框架层      │    │   模型层      │                   │
 │  │             │    │             │    │             │                   │
-│  │  LangChain  │    │  Transformers│    │ DeepSeek-V3 │                   │
-│  │  LlamaIndex │    │ LLaMA-Factory│    │    Qwen     │                   │
-│  │   AutoGen   │    │   DeepSpeed  │    │   LLaMA 3   │                   │
-│  │   CrewAI    │    │    vLLM      │    │   Mistral   │                   │
+│  │  LangChain  │    │  Transformers│    │DeepSeek-V3.2│                   │
+│  │  LangGraph  │    │ LLaMA-Factory│    │  Qwen3-Max  │                   │
+│  │   AutoGen   │    │   DeepSpeed  │    │   Llama 4   │                   │
+│  │  Claude SDK │    │    vLLM      │    │   GPT-OSS   │                   │
 │  └──────┬──────┘    └──────┬──────┘    └──────┬──────┘                   │
 │         │                  │                  │                            │
 │         ▼                  ▼                  ▼                            │

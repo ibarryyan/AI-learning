@@ -144,15 +144,19 @@
 | **提示工程** | Few-shot, CoT, ToT | [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) |
 | **推理优化** | vLLM, GGUF, 量化 | [vLLM](https://github.com/vllm-project/vllm) |
 
-#### 3.3 2024-2025 最新技术
+#### 3.3 2025-2026 最新技术
 
 | 技术 | 描述 | 论文/项目 |
 |:-----|:-----|:---------|
-| **DeepSeek-R1** | 纯强化学习推理模型 | [arxiv](https://arxiv.org/abs/2501.12948) |
-| **DeepSeek-V3** | 超强 MoE 开源模型 | [arxiv](https://arxiv.org/abs/2412.19437) |
-| **Qwen2.5** | 阿里新一代开源模型 | [GitHub](https://github.com/QwenLM/Qwen) |
-| **GPT-4o** | OpenAI 旗舰多模态 | OpenAI 官网 |
-| **Claude 3.5** | Anthropic 最新模型 | Anthropic 官网 |
+| **DeepSeek-V3.2** | 强化 Agent 能力，融入思考推理 | [技术报告](https://api-docs.deepseek.com/zh-cn/news/news251201/) |
+| **DeepSeek-R1** | 纯强化学习激励推理 | [arxiv](https://arxiv.org/abs/2501.12948) |
+| **Qwen3-Max** | 阿里万亿参数 MoE 模型 | [GitHub](https://github.com/QwenLM/Qwen3) |
+| **Kimi K2** | 万亿参数开源 Agent 模型 | [arxiv](https://arxiv.org/abs/2507.20534) |
+| **GPT-OSS** | OpenAI 首批开源权重模型 | [GitHub](https://github.com/openai/gpt-oss) |
+| **Llama 4** | Meta 首个 MoE 开源模型 | [模型卡](https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Original) |
+| **GPT-5** | OpenAI 抽象推理旗舰 | [官网](https://openai.com/index/gpt-5/) |
+| **Claude Opus 4.5** | Anthropic 编程写作最强 | [官网](https://www.anthropic.com/) |
+| **MCP** | 模型上下文协议，Agent 工具调用标准 | [官网](https://modelcontextprotocol.io/) |
 
 ---
 
@@ -185,7 +189,7 @@
 | 项目 | 描述 | 技术栈 |
 |:-----|:-----|:-------|
 | 大模型预训练 | 从零训练 | DeepSpeed, Megatron |
-| Agent 系统 | 自主 AI | LangChain, AutoGen |
+| Agent 系统 | 自主 AI | LangGraph, MCP, Claude Agent SDK |
 | 生产级部署 | 高并发服务 | vLLM, Kubernetes |
 | 模型量化压缩 | 边缘部署 | llama.cpp, AWQ, GPTQ |
 
